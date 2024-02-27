@@ -1,9 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!-- generated on 2024-01-22 15:31:09 by Eclipse SUMO netedit Version v1_19_0+0208-13a9e45677a
+<!-- generated on 2024-02-28 04:47:00 by Eclipse SUMO netedit Version 1.19.0
 -->
 
 <routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
-    <!-- Vehicles, persons and containers (sorted by depart) -->
-    <flow id="f_0" begin="0.00" from="324169517" to="1072704028" end="3600.00" vehsPerHour="1800"/>
+    <!-- Routes -->
+    <route id="kbt-10" edges="thornton-drive-extension-outward thornton-drive-lower-out L2 L3 L4 L5 L6"/>
+    <route id="kbt-12" edges="thornton-drive-extension-outward thornton-drive-upper-out R2 R1"/>
+    <route id="kbt-2" edges="R6 R5 R4 R3 R2 R1"/>
+    <route id="kbt-3" edges="R6 R5 R4 thornton-drive-in thornton-drive-extension-towards"/>
+    <route id="kbt-4" edges="L1 thornton-drive-in thornton-drive-extension-towards"/>
+    <route id="kbt-4a" edges="L1 R3 R2 R1"/>
+    <route id="kbt-7" edges="b.gonzales-extension-road b.gonzales-road R3 R2 R1"/>
+    <route id="kbt-9" edges="b.gonzales-extension-road b.gonzales-road L2 L3 L4 L5 L6"/>
+    <route id="kuf-10b" edges="univ-road-lower-out L7 L8 L9 L10 L11 L12"/>
+    <route id="kuf-10c" edges="univ-road-upper-out L7 L8 L9 L10 L11 L12"/>
+    <route id="kuf-12a-zerovehiclessiya" edges="univ-road-upper-out R6 R5 R4"/>
+    <route id="kuf-2" edges="R7 R6 R5 R4"/>
+    <route id="kuf-3" edges="R7 univ-road-lower-in"/>
+    <route id="kuf-3a" edges="R7 univ-road-upper-in"/>
+    <route id="kuf-4" edges="L6 univ-road-lower-in"/>
+    <route id="kuf-4a" edges="L6 R6 R5 R4"/>
+    <route id="kuf-4b" edges="L6 univ-road-upper-in"/>
+    <route id="kuf-5" edges="L6 L7 L8 L9 L10 L11 L12"/>
+    <route id="kuf-7" edges="f.dela-rosa-extension-road f.dela-rosa-road R6 R5 R4"/>
+    <route id="kuf-8" edges="f.dela-rosa-extension-road f.dela-rosa-road univ-road-lower-in"/>
+    <route id="kuf-8a" edges="f.dela-rosa-extension-road f.dela-rosa-road univ-road-upper-in"/>
+    <route id="kuf-9" edges="f.dela-rosa-extension-road f.dela-rosa-road L7 L8 L9 L10 L11 L12"/>
 </routes>
