@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!-- generated on 2024-02-27 20:03:47 by Eclipse SUMO sumo Version v1_19_0+0208-13a9e45677a
+<!-- generated on 2024-02-27 21:11:54 by Eclipse SUMO sumo Version v1_19_0+0208-13a9e45677a
 -->
 
 <configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
@@ -9,7 +9,6 @@
         <net-file value="osm.net.xml.gz"/>
         <route-files value="osm.rou.xml"/>
         <additional-files value="demo.add.xml"/>
-
     </input>
 
     <processing>

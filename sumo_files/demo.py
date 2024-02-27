@@ -26,17 +26,19 @@ def get_options():
 
 # TraCI control loop
 def run():
+    edge_list = traci.edge.getIDList()
+    #   print(edge_list)
     step = 0
     while traci.simulation.getMinExpectedNumber() > 0:
         traci.simulationStep()
-        #print(step)
-
+     
         if step%100 == 0:
-          
-            print("!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!")
-            print("biancs")
-            print("!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!")
-            
+            for edge in edge_list:
+                veh_count_in_edge = traci.edge.getLastStepVehicleNumber(edge)
+                if (veh_count_in_edge != 0):
+                    print("Current number of vehicles in edge " + str(edge) + " is " + str(veh_count_in_edge))
+        
+            pass
         step += 1
 
     traci.close()

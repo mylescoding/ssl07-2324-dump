@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!-- generated on 2024-01-22 15:31:09 by Eclipse SUMO netedit Version v1_19_0+0208-13a9e45677a
+<!-- generated on 2024-02-27 21:11:54 by Eclipse SUMO netedit Version v1_19_0+0208-13a9e45677a
 -->
 
 <routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
     <!-- Vehicles, persons and containers (sorted by depart) -->
+    <flow id="f_0" begin="0.00" from="R7" to="thornton-drive-extension-towards" end="3600.00" vehsPerHour="1800"/>
+    <flow id="f_1" begin="0.00" from="R7" to="univ-road-upper-in" end="3600.00" number="1800"/>
+    <flow id="f_2" begin="0.00" from="L1" to="L12" end="3600.00" number="1800"/>
 </routes>
