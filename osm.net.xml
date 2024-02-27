@@ -1,0 +1,1046 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2024-02-24 13:48:45 by Eclipse SUMO netedit Version 1.19.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/neteditConfiguration.xsd">
+
+    <input>
+        <sumo-net-file value="C:\Users\Rodeilyn Jean Omanio\OneDrive - University of the Philippines\CoE 199\SUMO\2024-01-04-16-45-12\osm.net.xml"/>
+    </input>
+
+    <output>
+        <output-file value="C:\Users\Rodeilyn Jean Omanio\OneDrive - University of the Philippines\CoE 199\SUMO\2024-01-04-16-45-12\osm.net.xml"/>
+        <output.street-names value="true"/>
+    </output>
+
+    <processing>
+        <geometry.min-radius.fix.railways value="false"/>
+        <geometry.max-grade.fix value="false"/>
+        <offset.disable-normalization value="true"/>
+        <lefthand value="0"/>
+    </processing>
+
+    <junctions>
+        <no-turnarounds value="true"/>
+        <junctions.corner-detail value="5"/>
+        <junctions.limit-turn-speed value="5.50"/>
+        <rectangular-lane-cut value="0"/>
+    </junctions>
+
+    <pedestrian>
+        <walkingareas value="0"/>
+    </pedestrian>
+
+</configuration>
+-->
+
+<net version="1.16" junctionCornerDetail="5" limitTurnSpeed="5.50" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/net_file.xsd">
+
+    <location netOffset="-292331.92,-1618739.76" convBoundary="42.90,0.00,565.69,1354.77" origBoundary="121.071810,14.634111,121.079289,14.646367" projParameter="+proj=utm +zone=51 +ellps=WGS84 +datum=WGS84 +units=m +no_defs"/>
+
+    <type id="highway.primary" priority="12" numLanes="2" speed="27.78" disallow="tram rail_urban rail rail_electric rail_fast ship" oneway="0"/>
+    <type id="highway.residential" priority="3" numLanes="1" speed="13.89" disallow="tram rail_urban rail rail_electric rail_fast ship" oneway="0"/>
+
+    <edge id=":273729962_0" function="internal">
+        <lane id=":273729962_0_0" index="0" disallow="tram rail_urban rail rail_electric rail_fast ship" speed="16.67" length="0.30" shape="312.41,827.29 312.42,827.59"/>
+        <lane id=":273729962_0_1" index="1" disallow="tram rail_urban rail rail_electric rail_fast ship" speed="16.67" length="0.30" shape="309.21,827.47 309.23,827.77"/>
+        <lane id=":273729962_0_2" index="2" disallow="tram rail_urban rail rail_electric rail_fast ship" speed="16.67" length="0.30" shape="306.02,827.65 306.03,827.95"/>
+    </edge>
+    <edge id=":b.gonzales_0" function="internal">
+        <lane id=":b.gonzales_0_0" index="0" disallow="tram rail_urban rail rail_electric rail_fast ship" speed="6.95" length="0.29" shape="166.99,833.30 167.28,833.41"/>
+        <lane id=":b.gonzales_0_1" index="1" disallow="tram rail_urban rail rail_electric rail_fast ship" speed="6.95" length="0.29" shape="165.84,836.28 166.09,836.38"/>
+    </edge>
+    <edge id=":f.dela-rosa_0" function="internal">
+        <lane id=":f.dela-rosa_0_0" index="0" disallow="tram rail_urban rail rail_electric rail_fast ship" speed="6.95" length="2.73" shape="173.57,676.81 174.20,677.19 174.62,677.47 175.06,677.71 175.73,677.97"/>
+        <lane id=":f.dela-rosa_0_1" index="1" disallow="tram rail_urban rail rail_electric rail_fast ship" speed="6.95" length="2.73" shape="172.03,679.62 172.80,680.07 173.32,680.40 173.86,680.68 174.69,681.00"/>
+    </edge>
+    <edge id=":katip-b.gonzales-thornton-drive-intersection_0" function="internal">
+        <lane id=":katip-b.gonzales-thornton-drive-intersection_0_0" index="0" disallow="tram rail_urban rail rail_electric rail_fast ship" speed="16.67" length="40.89" shape="293.23,947.44 291.09,906.29"/>
+        <lane id=":katip-b.gonzales-thornton-drive-intersection_0_1" index="1" disallow="tram rail_urban rail rail_electric rail_fast ship" speed="16.67" length="40.89" shape="296.42,947.12 294.28,906.13"/>
+        <lane id=":katip-b.gonzales-thornton-drive-intersection_0_2" index="2" disallow="tram rail_urban rail rail_electric rail_fast ship" speed="16.67" length="40.89" shape="299.61,946.81 297.48,905.97"/>
+        <lane id=":katip-b.gonzales-thornton-drive-intersection_0_3" index="3" disallow="tram rail_urban rail rail_electric rail_fast ship" speed="16.67" length="40.89" shape="302.79,946.49 300.67,905.81"/>
+        <lane id=":katip-b.gonzales-thornton-drive-intersection_0_4" index="4" disallow="tram rail_urban rail rail_electric rail_fast ship" speed="16.67" length="40.89" shape="305.98,946.18 303.87,905.64"/>
+    </edge>
+    <edge id=":katip-b.gonzales-thornton-drive-intersection_5" function="internal">
+        <lane id=":katip-b.gonzales-thornton-drive-intersection_5_0" index="0" disallow="tram rail_urban rail rail_electric rail_fast ship" speed="9.79" length="32.31" shape="305.98,946.18 307.76,938.08 313.25,934.34 321.05,934.62 329.75,938.59"/>
+    </edge>
+    <edge id=":katip-b.gonzales-thornton-drive-intersection_6" function="internal">
+        <lane id=":katip-b.gonzales-thornton-drive-intersection_6_0" index="0" disallow="tram rail_urban rail rail_electric rail_fast ship" speed="4.95" length="10.33" shape="305.98,946.18 307.48,943.37 309.16,942.31 311.00,943.02 313.02,945.49"/>
+    </edge>
+    <edge id=":katip-b.gonzales-thornton-drive-intersection_7" function="internal">
+        <lane id=":katip-b.gonzales-thornton-drive-intersection_7_0" index="0" disallow="tram rail_urban rail rail_electric rail_fast ship" speed="5.53" length="9.47" shape="328.00,941.26 325.35,939.96 323.57,940.07 322.64,941.60 322.58,944.54"/>
+    </edge>
+    <edge id=":katip-b.gonzales-thornton-drive-intersection_8" function="internal">
+        <lane id=":katip-b.gonzales-thornton-drive-intersection_8_0" index="0" disallow="tram rail_urban rail rail_electric rail_fast ship" speed="15.28" length="46.29" shape="328.00,941.26 316.39,932.55 307.97,923.73 302.73,914.82 300.67,905.81"/>
+        <lane id=":katip-b.gonzales-thornton-drive-intersection_8_1" index="1" disallow="tram rail_urban rail rail_electric rail_fast ship" speed="15.28" length="44.63" shape="328.00,941.26 317.83,933.35 310.43,924.78 305.77,915.54 303.87,905.64"/>
+    </edge>
+    <edge id=":katip-b.gonzales-thornton-drive-intersection_10" function="internal">
+        <lane id=":katip-b.gonzales-thornton-drive-intersection_10_0" index="0" disallow="tram rail_urban rail rail_electric rail_fast ship" speed="15.28" length="36.17" shape="319.17,904.86 320.66,917.56 322.92,927.41 325.95,934.42 329.75,938.59"/>
+    </edge>
+    <edge id=":katip-b.gonzales-thornton-drive-intersection_11" function="internal">
+        <lane id=":katip-b.gonzales-thornton-drive-intersection_11_0" index="0" disallow="tram rail_urban rail rail_electric rail_fast ship" speed="16.67" length="40.05" shape="319.17,904.86 322.58,944.54"/>
+        <lane id=":katip-b.gonzales-thornton-drive-intersection_11_1" index="1" disallow="tram rail_urban rail rail_electric rail_fast ship" speed="16.67" length="40.05" shape="315.97,905.03 319.39,944.86"/>
+        <lane id=":katip-b.gonzales-thornton-drive-intersection_11_2" index="2" disallow="tram rail_urban rail rail_electric rail_fast ship" speed="16.67" length="40.05" shape="312.77,905.19 316.21,945.17"/>
+        <lane id=":katip-b.gonzales-thornton-drive-intersection_11_3" index="3" disallow="tram rail_urban rail rail_electric rail_fast ship" speed="16.67" length="40.05" shape="309.58,905.35 313.02,945.49"/>
+    </edge>
+    <edge id=":katip-b.gonzales-thornton-drive-intersection_15" function="internal">
+        <lane id=":katip-b.gonzales-thornton-drive-intersection_15_0" index="0" disallow="tram rail_urban rail rail_electric rail_fast ship" speed="5.74" length="9.19" shape="285.39,910.24 288.01,910.99 289.83,910.58 290.86,909.02 291.09,906.29"/>
+        <lane id=":katip-b.gonzales-thornton-drive-intersection_15_1" index="1" disallow="tram rail_urban rail rail_electric rail_fast ship" speed="6.65" length="12.86" shape="285.39,910.24 289.44,911.52 292.27,911.26 293.88,909.46 294.28,906.13"/>
+    </edge>
+    <edge id=":katip-b.gonzales-thornton-drive-intersection_17" function="internal">
+        <lane id=":katip-b.gonzales-thornton-drive-intersection_17_0" index="0" disallow="tram rail_urban rail rail_electric rail_fast ship" speed="12.50" length="47.33" shape="284.12,913.18 297.46,920.15 307.26,927.81 313.51,936.15 316.21,945.17"/>
+        <lane id=":katip-b.gonzales-thornton-drive-intersection_17_1" index="1" disallow="tram rail_urban rail rail_electric rail_fast ship" speed="12.50" length="45.45" shape="284.12,913.18 296.00,919.62 304.78,927.15 310.46,935.77 313.02,945.49"/>
+    </edge>
+    <edge id=":katip-bottom-left-junc-10to11_0" function="internal">
+        <lane id=":katip-bottom-left-junc-10to11_0_0" index="0" disallow="tram rail_urban rail rail_electric rail_fast ship" speed="16.67" length="0.30" shape="267.36,449.19 267.35,448.89"/>
+        <lane id=":katip-bottom-left-junc-10to11_0_1" index="1" disallow="tram rail_urban rail rail_electric rail_fast ship" speed="16.67" length="0.30" shape="270.56,449.06 270.55,448.76"/>
+        <lane id=":katip-bottom-left-junc-10to11_0_2" index="2" disallow="tram rail_urban rail rail_electric rail_fast ship" speed="16.67" length="0.30" shape="273.76,448.92 273.74,448.62"/>
+        <lane id=":katip-bottom-left-junc-10to11_0_3" index="3" disallow="tram rail_urban rail rail_electric rail_fast ship" speed="16.67" length="0.30" shape="276.95,448.78 276.94,448.49"/>
+        <lane id=":katip-bottom-left-junc-10to11_0_4" index="4" disallow="tram rail_urban rail rail_electric rail_fast ship" speed="16.67" length="0.30" shape="280.15,448.65 280.14,448.35"/>
+    </edge>
+    <edge id=":katip-bottom-left-junc-7to8_0" function="internal">
+        <lane id=":katip-bottom-left-junc-7to8_0_0" index="0" disallow="tram rail_urban rail rail_electric rail_fast ship" speed="16.67" length="0.37" shape="277.99,665.06 277.96,664.57"/>
+        <lane id=":katip-bottom-left-junc-7to8_0_1" index="1" disallow="tram rail_urban rail rail_electric rail_fast ship" speed="16.67" length="0.37" shape="281.18,664.85 281.15,664.42"/>
+        <lane id=":katip-bottom-left-junc-7to8_0_2" index="2" disallow="tram rail_urban rail rail_electric rail_fast ship" speed="16.67" length="0.37" shape="284.37,664.63 284.35,664.27"/>
+        <lane id=":katip-bottom-left-junc-7to8_0_3" index="3" disallow="tram rail_urban rail rail_electric rail_fast ship" speed="16.67" length="0.37" shape="287.57,664.42 287.55,664.12"/>
+        <lane id=":katip-bottom-left-junc-7to8_0_4" index="4" disallow="tram rail_urban rail rail_electric rail_fast ship" speed="16.67" length="0.37" shape="290.76,664.21 290.74,663.97"/>
+    </edge>
+    <edge id=":katip-bottom-left-junc-8to9_0" function="internal">
+        <lane id=":katip-bottom-left-junc-8to9_0_0" index="0" disallow="tram rail_urban rail rail_electric rail_fast ship" speed="16.67" length="0.52" shape="277.05,645.24 277.03,644.90"/>
+        <lane id=":katip-bottom-left-junc-8to9_0_1" index="1" disallow="tram rail_urban rail rail_electric rail_fast ship" speed="16.67" length="0.52" shape="280.25,645.09 280.22,644.66"/>
+        <lane id=":katip-bottom-left-junc-8to9_0_2" index="2" disallow="tram rail_urban rail rail_electric rail_fast ship" speed="16.67" length="0.52" shape="283.44,644.94 283.41,644.42"/>
+        <lane id=":katip-bottom-left-junc-8to9_0_3" index="3" disallow="tram rail_urban rail rail_electric rail_fast ship" speed="16.67" length="0.52" shape="286.64,644.79 286.60,644.18"/>
+        <lane id=":katip-bottom-left-junc-8to9_0_4" index="4" disallow="tram rail_urban rail rail_electric rail_fast ship" speed="16.67" length="0.52" shape="289.84,644.64 289.79,643.94"/>
+    </edge>
+    <edge id=":katip-bottom-left-junc-9to10_0" function="internal">
+        <lane id=":katip-bottom-left-junc-9to10_0_0" index="0" disallow="tram rail_urban rail rail_electric rail_fast ship" speed="16.67" length="0.30" shape="270.83,530.57 270.82,530.27"/>
+        <lane id=":katip-bottom-left-junc-9to10_0_1" index="1" disallow="tram rail_urban rail rail_electric rail_fast ship" speed="16.67" length="0.30" shape="274.03,530.43 274.02,530.14"/>
+        <lane id=":katip-bottom-left-junc-9to10_0_2" index="2" disallow="tram rail_urban rail rail_electric rail_fast ship" speed="16.67" length="0.30" shape="277.23,530.30 277.21,530.00"/>
+        <lane id=":katip-bottom-left-junc-9to10_0_3" index="3" disallow="tram rail_urban rail rail_electric rail_fast ship" speed="16.67" length="0.30" shape="280.42,530.16 280.41,529.86"/>
+        <lane id=":katip-bottom-left-junc-9to10_0_4" index="4" disallow="tram rail_urban rail rail_electric rail_fast ship" speed="16.67" length="0.30" shape="283.62,530.03 283.61,529.73"/>
+    </edge>
+    <edge id=":katip-bottom-left-junc1_0" function="internal">
+        <lane id=":katip-bottom-left-junc1_0_0" index="0" disallow="tram rail_urban rail rail_electric rail_fast ship" speed="16.67" length="0.30" shape="266.30,424.10 266.29,423.80"/>
+        <lane id=":katip-bottom-left-junc1_0_1" index="1" disallow="tram rail_urban rail rail_electric rail_fast ship" speed="16.67" length="0.30" shape="269.50,423.96 269.49,423.67"/>
+        <lane id=":katip-bottom-left-junc1_0_2" index="2" disallow="tram rail_urban rail rail_electric rail_fast ship" speed="16.67" length="0.30" shape="272.70,423.83 272.68,423.53"/>
+        <lane id=":katip-bottom-left-junc1_0_3" index="3" disallow="tram rail_urban rail rail_electric rail_fast ship" speed="16.67" length="0.30" shape="275.89,423.69 275.88,423.39"/>
+        <lane id=":katip-bottom-left-junc1_0_4" index="4" disallow="tram rail_urban rail rail_electric rail_fast ship" speed="16.67" length="0.30" shape="279.09,423.56 279.08,423.26"/>
+    </edge>
+    <edge id=":katip-mid-left-junc-2to3_0" function="internal">
+        <lane id=":katip-mid-left-junc-2to3_0_0" index="0" disallow="tram rail_urban rail rail_electric rail_fast ship" speed="16.67" length="0.30" shape="287.16,828.40 287.14,828.11"/>
+        <lane id=":katip-mid-left-junc-2to3_0_1" index="1" disallow="tram rail_urban rail rail_electric rail_fast ship" speed="16.67" length="0.30" shape="290.35,828.24 290.34,827.94"/>
+        <lane id=":katip-mid-left-junc-2to3_0_2" index="2" disallow="tram rail_urban rail rail_electric rail_fast ship" speed="16.67" length="0.30" shape="293.55,828.08 293.53,827.78"/>
+        <lane id=":katip-mid-left-junc-2to3_0_3" index="3" disallow="tram rail_urban rail rail_electric rail_fast ship" speed="16.67" length="0.30" shape="296.74,827.92 296.73,827.62"/>
+        <lane id=":katip-mid-left-junc-2to3_0_4" index="4" disallow="tram rail_urban rail rail_electric rail_fast ship" speed="16.67" length="0.30" shape="299.94,827.76 299.92,827.45"/>
+    </edge>
+    <edge id=":katip-mid-left-junc-3to4_0" function="internal">
+        <lane id=":katip-mid-left-junc-3to4_0_0" index="0" disallow="tram rail_urban rail rail_electric rail_fast ship" speed="16.67" length="0.10" shape="284.75,781.69 284.75,781.69"/>
+        <lane id=":katip-mid-left-junc-3to4_0_1" index="1" disallow="tram rail_urban rail rail_electric rail_fast ship" speed="16.67" length="0.10" shape="287.94,781.53 287.94,781.53"/>
+        <lane id=":katip-mid-left-junc-3to4_0_2" index="2" disallow="tram rail_urban rail rail_electric rail_fast ship" speed="16.67" length="0.10" shape="291.14,781.36 291.14,781.36"/>
+        <lane id=":katip-mid-left-junc-3to4_0_3" index="3" disallow="tram rail_urban rail rail_electric rail_fast ship" speed="16.67" length="0.10" shape="294.34,781.19 294.34,781.19"/>
+        <lane id=":katip-mid-left-junc-3to4_0_4" index="4" disallow="tram rail_urban rail rail_electric rail_fast ship" speed="16.67" length="0.10" shape="297.53,781.03 297.53,781.03"/>
+    </edge>
+    <edge id=":katip-mid-right-junc-5to4_0" function="internal">
+        <lane id=":katip-mid-right-junc-5to4_0_0" index="0" disallow="tram rail_urban rail rail_electric rail_fast ship" speed="16.67" length="8.19" shape="314.46,864.07 314.84,866.41 315.49,867.95 316.15,869.49 316.59,871.83"/>
+        <lane id=":katip-mid-right-junc-5to4_0_1" index="1" disallow="tram rail_urban rail rail_electric rail_fast ship" speed="16.67" length="8.19" shape="311.27,864.25 311.65,866.61 312.30,868.17 312.96,869.72 313.40,872.08"/>
+        <lane id=":katip-mid-right-junc-5to4_0_2" index="2" disallow="tram rail_urban rail rail_electric rail_fast ship" speed="16.67" length="8.19" shape="308.07,864.43 308.46,866.81 309.11,868.38 309.77,869.95 310.21,872.33"/>
+        <lane id=":katip-mid-right-junc-5to4_0_3" index="3" disallow="tram rail_urban rail rail_electric rail_fast ship" speed="16.67" length="8.19" shape="308.07,864.43 307.96,866.86 307.51,868.51 307.08,870.15 307.02,872.58"/>
+    </edge>
+    <edge id=":katip-top-right-curve_0" function="internal">
+        <lane id=":katip-top-right-curve_0_0" index="0" disallow="tram rail_urban rail rail_electric rail_fast ship" speed="16.67" length="0.29" shape="322.68,1112.09 322.64,1112.45"/>
+        <lane id=":katip-top-right-curve_0_1" index="1" disallow="tram rail_urban rail rail_electric rail_fast ship" speed="16.67" length="0.29" shape="319.50,1111.75 319.46,1112.06"/>
+        <lane id=":katip-top-right-curve_0_2" index="2" disallow="tram rail_urban rail rail_electric rail_fast ship" speed="16.67" length="0.29" shape="316.31,1111.42 316.28,1111.68"/>
+        <lane id=":katip-top-right-curve_0_3" index="3" disallow="tram rail_urban rail rail_electric rail_fast ship" speed="16.67" length="0.29" shape="313.13,1111.09 313.11,1111.30"/>
+    </edge>
+    <edge id=":katip-university-road-f.dela-rosa_0" function="internal">
+        <lane id=":katip-university-road-f.dela-rosa_0_0" index="0" disallow="tram rail_urban rail rail_electric rail_fast ship" speed="16.67" length="23.51" shape="281.96,727.59 280.60,704.46"/>
+        <lane id=":katip-university-road-f.dela-rosa_0_1" index="1" disallow="tram rail_urban rail rail_electric rail_fast ship" speed="16.67" length="23.51" shape="285.15,727.41 283.79,704.25"/>
+        <lane id=":katip-university-road-f.dela-rosa_0_2" index="2" disallow="tram rail_urban rail rail_electric rail_fast ship" speed="16.67" length="23.51" shape="288.35,727.23 286.99,704.04"/>
+        <lane id=":katip-university-road-f.dela-rosa_0_3" index="3" disallow="tram rail_urban rail rail_electric rail_fast ship" speed="16.67" length="23.51" shape="288.35,727.23 288.49,720.28 289.33,715.53 290.14,710.78 290.18,703.83"/>
+        <lane id=":katip-university-road-f.dela-rosa_0_4" index="4" disallow="tram rail_urban rail rail_electric rail_fast ship" speed="16.67" length="23.51" shape="288.35,727.23 288.98,720.15 290.93,715.42 292.84,710.70 293.37,703.62"/>
+    </edge>
+    <edge id=":katip-university-road-f.dela-rosa_5" function="internal">
+        <lane id=":katip-university-road-f.dela-rosa_5_0" index="0" disallow="tram rail_urban rail rail_electric rail_fast ship" speed="11.96" length="31.72" shape="291.54,727.06 292.83,721.36 297.36,716.93 305.12,713.75 316.12,711.84"/>
+    </edge>
+    <edge id=":katip-university-road-f.dela-rosa_6" function="internal">
+        <lane id=":katip-university-road-f.dela-rosa_6_0" index="0" disallow="tram rail_urban rail rail_electric rail_fast ship" speed="10.87" length="31.95" shape="291.54,727.06 293.01,719.49 297.99,715.71 305.82,714.87 315.86,716.13"/>
+    </edge>
+    <edge id=":katip-university-road-f.dela-rosa_7" function="internal">
+        <lane id=":katip-university-road-f.dela-rosa_7_0" index="0" disallow="tram rail_urban rail rail_electric rail_fast ship" speed="4.49" length="8.24" shape="294.74,726.88 296.03,724.69 297.40,723.90 298.85,724.53 300.37,726.57"/>
+    </edge>
+    <edge id=":katip-university-road-f.dela-rosa_8" function="internal">
+        <lane id=":katip-university-road-f.dela-rosa_8_0" index="0" disallow="tram rail_urban rail rail_electric rail_fast ship" speed="6.02" length="10.58" shape="314.12,723.31 310.76,722.06 308.42,722.12 307.08,723.51 306.76,726.21"/>
+    </edge>
+    <edge id=":katip-university-road-f.dela-rosa_9" function="internal">
+        <lane id=":katip-university-road-f.dela-rosa_9_0" index="0" disallow="tram rail_urban rail rail_electric rail_fast ship" speed="15.07" length="31.69" shape="314.12,723.31 303.84,717.74 296.43,712.63 291.87,708.00 290.18,703.83"/>
+        <lane id=":katip-university-road-f.dela-rosa_9_1" index="1" disallow="tram rail_urban rail rail_electric rail_fast ship" speed="14.59" length="29.65" shape="314.12,723.31 305.29,718.34 298.88,713.40 294.91,708.49 293.37,703.62"/>
+    </edge>
+    <edge id=":katip-university-road-f.dela-rosa_11" function="internal">
+        <lane id=":katip-university-road-f.dela-rosa_11_0" index="0" disallow="tram rail_urban rail rail_electric rail_fast ship" speed="9.74" length="31.09" shape="314.17,706.97 306.03,711.79 298.49,713.47 292.80,711.12 290.18,703.83"/>
+        <lane id=":katip-university-road-f.dela-rosa_11_1" index="1" disallow="tram rail_urban rail rail_electric rail_fast ship" speed="9.12" length="27.08" shape="314.17,706.97 307.10,711.07 300.57,712.32 295.64,710.06 293.37,703.62"/>
+    </edge>
+    <edge id=":katip-university-road-f.dela-rosa_13" function="internal">
+        <lane id=":katip-university-road-f.dela-rosa_13_0" index="0" disallow="tram rail_urban rail rail_electric rail_fast ship" speed="8.27" length="16.01" shape="305.66,702.81 306.44,707.15 308.44,710.10 311.67,711.66 316.12,711.84"/>
+    </edge>
+    <edge id=":katip-university-road-f.dela-rosa_14" function="internal">
+        <lane id=":katip-university-road-f.dela-rosa_14_0" index="0" disallow="tram rail_urban rail rail_electric rail_fast ship" speed="9.83" length="18.33" shape="305.66,702.81 306.44,707.95 308.40,711.89 311.54,714.61 315.86,716.13"/>
+    </edge>
+    <edge id=":katip-university-road-f.dela-rosa_15" function="internal">
+        <lane id=":katip-university-road-f.dela-rosa_15_0" index="0" disallow="tram rail_urban rail rail_electric rail_fast ship" speed="16.67" length="23.40" shape="305.66,702.81 306.76,726.21"/>
+        <lane id=":katip-university-road-f.dela-rosa_15_1" index="1" disallow="tram rail_urban rail rail_electric rail_fast ship" speed="16.67" length="23.40" shape="302.46,703.02 303.57,726.39"/>
+        <lane id=":katip-university-road-f.dela-rosa_15_2" index="2" disallow="tram rail_urban rail rail_electric rail_fast ship" speed="16.67" length="23.40" shape="299.27,703.23 300.37,726.57"/>
+    </edge>
+    <edge id=":katip-university-road-f.dela-rosa_18" function="internal">
+        <lane id=":katip-university-road-f.dela-rosa_18_0" index="0" disallow="tram rail_urban rail rail_electric rail_fast ship" speed="5.95" length="9.09" shape="275.00,709.17 277.61,709.42 279.41,708.72 280.41,707.07 280.60,704.46"/>
+    </edge>
+    <edge id=":katip-university-road-f.dela-rosa_19" function="internal">
+        <lane id=":katip-university-road-f.dela-rosa_19_0" index="0" disallow="tram rail_urban rail rail_electric rail_fast ship" speed="11.11" length="41.27" shape="275.00,709.17 284.83,710.66 297.34,711.58 308.96,711.97 316.12,711.84"/>
+    </edge>
+    <edge id=":katip-university-road-f.dela-rosa_20" function="internal">
+        <lane id=":katip-university-road-f.dela-rosa_20_0" index="0" disallow="tram rail_urban rail rail_electric rail_fast ship" speed="11.11" length="41.44" shape="275.00,709.17 315.86,716.13"/>
+    </edge>
+    <edge id=":katip-university-road-f.dela-rosa_21" function="internal">
+        <lane id=":katip-university-road-f.dela-rosa_21_0" index="0" disallow="tram rail_urban rail rail_electric rail_fast ship" speed="12.50" length="33.56" shape="274.25,712.28 286.93,715.80 296.04,719.33 301.59,722.86 303.57,726.39"/>
+        <lane id=":katip-university-road-f.dela-rosa_21_1" index="1" disallow="tram rail_urban rail rail_electric rail_fast ship" speed="12.50" length="31.01" shape="274.25,712.28 285.51,715.51 293.62,718.97 298.57,722.66 300.37,726.57"/>
+    </edge>
+    <edge id=":katip-upper-left-junc-4to5_0" function="internal">
+        <lane id=":katip-upper-left-junc-4to5_0_0" index="0" disallow="tram rail_urban rail rail_electric rail_fast ship" speed="16.67" length="0.10" shape="283.36,754.79 283.36,754.79"/>
+        <lane id=":katip-upper-left-junc-4to5_0_1" index="1" disallow="tram rail_urban rail rail_electric rail_fast ship" speed="16.67" length="0.10" shape="286.55,754.63 286.55,754.62"/>
+        <lane id=":katip-upper-left-junc-4to5_0_2" index="2" disallow="tram rail_urban rail rail_electric rail_fast ship" speed="16.67" length="0.10" shape="289.75,754.46 289.75,754.46"/>
+        <lane id=":katip-upper-left-junc-4to5_0_3" index="3" disallow="tram rail_urban rail rail_electric rail_fast ship" speed="16.67" length="0.10" shape="292.95,754.29 292.95,754.30"/>
+        <lane id=":katip-upper-left-junc-4to5_0_4" index="4" disallow="tram rail_urban rail rail_electric rail_fast ship" speed="16.67" length="0.10" shape="296.14,754.13 296.14,754.13"/>
+    </edge>
+    <edge id=":katip-upper-left-junc-5to6_0" function="internal">
+        <lane id=":katip-upper-left-junc-5to6_0_0" index="0" disallow="tram rail_urban rail rail_electric rail_fast ship" speed="16.67" length="0.30" shape="282.17,731.69 282.15,731.39"/>
+        <lane id=":katip-upper-left-junc-5to6_0_1" index="1" disallow="tram rail_urban rail rail_electric rail_fast ship" speed="16.67" length="0.30" shape="285.36,731.52 285.35,731.22"/>
+        <lane id=":katip-upper-left-junc-5to6_0_2" index="2" disallow="tram rail_urban rail rail_electric rail_fast ship" speed="16.67" length="0.30" shape="288.56,731.36 288.54,731.06"/>
+        <lane id=":katip-upper-left-junc-5to6_0_3" index="3" disallow="tram rail_urban rail rail_electric rail_fast ship" speed="16.67" length="0.30" shape="291.75,731.19 291.74,730.90"/>
+        <lane id=":katip-upper-left-junc-5to6_0_4" index="4" disallow="tram rail_urban rail rail_electric rail_fast ship" speed="16.67" length="0.30" shape="294.95,731.03 294.93,730.73"/>
+    </edge>
+    <edge id=":thornton-drive_0" function="internal">
+        <lane id=":thornton-drive_0_0" index="0" speed="13.89" length="9.56" shape="377.25,971.77 367.69,971.83"/>
+    </edge>
+    <edge id=":thornton-drive_1" function="internal">
+        <lane id=":thornton-drive_1_0" index="0" speed="13.38" length="9.48" shape="377.25,971.77 374.52,971.50 372.73,970.82 371.09,969.68 368.79,968.05"/>
+    </edge>
+    <edge id=":thornton-drive_2" function="internal">
+        <lane id=":thornton-drive_2_0" index="0" speed="12.08" length="7.69" shape="370.54,965.37 372.39,966.73 373.70,967.71 375.12,968.33 377.31,968.57"/>
+    </edge>
+    <edge id=":thornton-drive-exit_0" function="internal">
+        <lane id=":thornton-drive-exit_0_0" index="0" disallow="tram rail_urban rail rail_electric rail_fast ship" speed="6.39" length="9.04" shape="330.97,972.39 328.51,972.78 326.80,973.87 325.86,975.66 325.67,978.15"/>
+        <lane id=":thornton-drive-exit_0_1" index="1" disallow="tram rail_urban rail rail_electric rail_fast ship" speed="7.22" length="11.82" shape="330.97,972.39 327.11,972.81 324.40,973.95 322.86,975.80 322.48,978.37"/>
+        <lane id=":thornton-drive-exit_0_2" index="2" disallow="tram rail_urban rail rail_electric rail_fast ship" speed="8.00" length="14.75" shape="330.97,972.39 325.71,972.85 322.00,974.03 319.87,975.94 319.29,978.59"/>
+    </edge>
+    <edge id=":thornton-drive-exit_3" function="internal">
+        <lane id=":thornton-drive-exit_3_0" index="0" disallow="tram rail_urban rail rail_electric rail_fast ship" speed="16.67" length="11.64" shape="324.74,966.40 325.67,978.15"/>
+        <lane id=":thornton-drive-exit_3_1" index="1" disallow="tram rail_urban rail rail_electric rail_fast ship" speed="16.67" length="11.64" shape="321.56,966.72 322.48,978.37"/>
+        <lane id=":thornton-drive-exit_3_2" index="2" disallow="tram rail_urban rail rail_electric rail_fast ship" speed="16.67" length="11.64" shape="318.37,967.03 319.29,978.59"/>
+        <lane id=":thornton-drive-exit_3_3" index="3" disallow="tram rail_urban rail rail_electric rail_fast ship" speed="16.67" length="11.64" shape="315.19,967.35 316.10,978.81"/>
+    </edge>
+
+    <edge id="727682001" from="b.gonzales-extension" to="b.gonzales" name="B. Gonzales" priority="3" type="highway.residential">
+        <lane id="727682001_0" index="0" disallow="tram rail_urban rail rail_electric rail_fast ship" speed="5.56" length="118.17" shape="56.67,790.93 166.99,833.30">
+            <param key="origId" value="727682001"/>
+        </lane>
+        <lane id="727682001_1" index="1" disallow="tram rail_urban rail rail_electric rail_fast ship" speed="5.56" length="118.17" shape="55.52,793.92 165.84,836.28">
+            <param key="origId" value="727682001"/>
+        </lane>
+    </edge>
+    <edge id="L1" from="katip-top-left" to="katip-b.gonzales-thornton-drive-intersection" name="Katipunan Avenue" priority="12" type="highway.primary" spreadType="center" shape="267.62,1351.43 293.19,1157.77 294.35,1141.79 297.12,1119.05 299.85,1091.92 303.00,1030.57 300.87,970.81 298.25,921.05">
+        <lane id="L1_0" index="0" disallow="tram rail_urban rail rail_electric rail_fast ship" speed="16.67" length="406.80" shape="261.28,1350.59 286.82,1157.12 287.98,1141.17 290.76,1118.34 293.47,1091.44 296.59,1030.52 294.48,971.09 293.23,947.44">
+            <param key="origId" value="933973919 1068319163"/>
+        </lane>
+        <lane id="L1_1" index="1" disallow="tram rail_urban rail rail_electric rail_fast ship" speed="16.67" length="406.80" shape="264.45,1351.01 290.01,1157.44 291.16,1141.48 293.94,1118.70 296.66,1091.68 299.80,1030.54 297.67,970.95 296.42,947.12">
+            <param key="origId" value="933973919 1068319163"/>
+        </lane>
+        <lane id="L1_2" index="2" disallow="tram rail_urban rail rail_electric rail_fast ship" speed="16.67" length="406.80" shape="267.62,1351.43 293.19,1157.77 294.35,1141.79 297.12,1119.05 299.85,1091.92 303.00,1030.57 300.87,970.81 299.61,946.81">
+            <param key="origId" value="933973919 1068319163"/>
+        </lane>
+        <lane id="L1_3" index="3" disallow="tram rail_urban rail rail_electric rail_fast ship" speed="16.67" length="406.80" shape="270.79,1351.85 296.37,1158.10 297.54,1142.10 300.30,1119.40 303.04,1092.16 306.20,1030.60 304.07,970.67 302.79,946.49">
+            <param key="origId" value="933973919 1068319163"/>
+        </lane>
+        <lane id="L1_4" index="4" disallow="tram rail_urban rail rail_electric rail_fast ship" speed="16.67" length="406.80" shape="273.96,1352.27 299.56,1158.42 300.72,1142.41 303.48,1119.76 306.23,1092.40 309.41,1030.62 307.26,970.53 305.98,946.18">
+            <param key="origId" value="933973919 1068319163"/>
+        </lane>
+        <param key="origTo" value="4659861296"/>
+        <param key="ref" value="11"/>
+    </edge>
+    <edge id="L10" from="katip-bottom-left-junc-9to10" to="katip-bottom-left-junc-10to11" name="Katipunan Avenue" priority="12" type="highway.primary" spreadType="center" shape="277.22,530.15 275.03,478.83 273.75,448.77">
+        <lane id="L10_0" index="0" disallow="tram rail_urban rail rail_electric rail_fast ship" speed="16.67" length="81.15" shape="270.82,530.27 268.64,479.10 267.36,449.19">
+            <param key="origId" value="933562735"/>
+        </lane>
+        <lane id="L10_1" index="1" disallow="tram rail_urban rail rail_electric rail_fast ship" speed="16.67" length="81.15" shape="274.02,530.14 271.83,478.97 270.56,449.06">
+            <param key="origId" value="933562735"/>
+        </lane>
+        <lane id="L10_2" index="2" disallow="tram rail_urban rail rail_electric rail_fast ship" speed="16.67" length="81.15" shape="277.21,530.00 275.03,478.83 273.76,448.92">
+            <param key="origId" value="933562735"/>
+        </lane>
+        <lane id="L10_3" index="3" disallow="tram rail_urban rail rail_electric rail_fast ship" speed="16.67" length="81.15" shape="280.41,529.86 278.23,478.69 276.95,448.78">
+            <param key="origId" value="933562735"/>
+        </lane>
+        <lane id="L10_4" index="4" disallow="tram rail_urban rail rail_electric rail_fast ship" speed="16.67" length="81.15" shape="283.61,529.73 281.42,478.56 280.15,448.65">
+            <param key="origId" value="933562735"/>
+        </lane>
+        <param key="ref" value="11"/>
+    </edge>
+    <edge id="L11" from="katip-bottom-left-junc-10to11" to="katip-bottom-left-junc1" name="Katipunan Avenue" priority="12" type="highway.primary" spreadType="center">
+        <lane id="L11_0" index="0" disallow="tram rail_urban rail rail_electric rail_fast ship" speed="16.67" length="24.81" shape="267.35,448.89 266.30,424.10">
+            <param key="origId" value="933562735"/>
+        </lane>
+        <lane id="L11_1" index="1" disallow="tram rail_urban rail rail_electric rail_fast ship" speed="16.67" length="24.81" shape="270.55,448.76 269.50,423.96">
+            <param key="origId" value="933562735"/>
+        </lane>
+        <lane id="L11_2" index="2" disallow="tram rail_urban rail rail_electric rail_fast ship" speed="16.67" length="24.81" shape="273.74,448.62 272.70,423.83">
+            <param key="origId" value="933562735"/>
+        </lane>
+        <lane id="L11_3" index="3" disallow="tram rail_urban rail rail_electric rail_fast ship" speed="16.67" length="24.81" shape="276.94,448.49 275.89,423.69">
+            <param key="origId" value="933562735"/>
+        </lane>
+        <lane id="L11_4" index="4" disallow="tram rail_urban rail rail_electric rail_fast ship" speed="16.67" length="24.81" shape="280.14,448.35 279.09,423.56">
+            <param key="origId" value="933562735"/>
+        </lane>
+        <param key="ref" value="11"/>
+    </edge>
+    <edge id="L12" from="katip-bottom-left-junc1" to="katip-bottom-left" name="Katipunan Avenue" priority="12" type="highway.primary" spreadType="center" shape="272.69,423.68 271.52,396.43">
+        <lane id="L12_0" index="0" disallow="tram rail_urban rail rail_electric rail_fast ship" speed="16.67" length="30.10" shape="266.29,423.80 265.00,393.73">
+            <param key="origId" value="933562735"/>
+        </lane>
+        <lane id="L12_1" index="1" disallow="tram rail_urban rail rail_electric rail_fast ship" speed="16.67" length="30.10" shape="269.49,423.67 268.20,393.60">
+            <param key="origId" value="933562735"/>
+        </lane>
+        <lane id="L12_2" index="2" disallow="tram rail_urban rail rail_electric rail_fast ship" speed="16.67" length="30.10" shape="272.68,423.53 271.39,393.46">
+            <param key="origId" value="933562735"/>
+        </lane>
+        <lane id="L12_3" index="3" disallow="tram rail_urban rail rail_electric rail_fast ship" speed="16.67" length="30.10" shape="275.88,423.39 274.59,393.32">
+            <param key="origId" value="933562735"/>
+        </lane>
+        <lane id="L12_4" index="4" disallow="tram rail_urban rail rail_electric rail_fast ship" speed="16.67" length="30.10" shape="279.08,423.26 277.79,393.19">
+            <param key="origId" value="933562735"/>
+        </lane>
+        <param key="origTo" value="8668450617"/>
+        <param key="ref" value="11"/>
+    </edge>
+    <edge id="L2" from="katip-b.gonzales-thornton-drive-intersection" to="katip-mid-left-junc-2to3" name="Katipunan Avenue" priority="12" type="highway.primary" spreadType="center" shape="298.25,921.05 297.06,897.78 293.54,827.93">
+        <lane id="L2_0" index="0" disallow="tram rail_urban rail rail_electric rail_fast ship" speed="16.67" length="77.99" shape="291.09,906.29 290.67,898.10 287.16,828.40">
+            <param key="origId" value="255885800"/>
+        </lane>
+        <lane id="L2_1" index="1" disallow="tram rail_urban rail rail_electric rail_fast ship" speed="16.67" length="77.99" shape="294.28,906.13 293.86,897.94 290.35,828.24">
+            <param key="origId" value="255885800"/>
+        </lane>
+        <lane id="L2_2" index="2" disallow="tram rail_urban rail rail_electric rail_fast ship" speed="16.67" length="77.99" shape="297.48,905.97 297.06,897.78 293.55,828.08">
+            <param key="origId" value="255885800"/>
+        </lane>
+        <lane id="L2_3" index="3" disallow="tram rail_urban rail rail_electric rail_fast ship" speed="16.67" length="77.99" shape="300.67,905.81 300.26,897.62 296.74,827.92">
+            <param key="origId" value="255885800"/>
+        </lane>
+        <lane id="L2_4" index="4" disallow="tram rail_urban rail rail_electric rail_fast ship" speed="16.67" length="77.99" shape="303.87,905.64 303.45,897.46 299.94,827.76">
+            <param key="origId" value="255885800"/>
+        </lane>
+        <param key="origFrom" value="4659861296"/>
+        <param key="ref" value="11"/>
+    </edge>
+    <edge id="L3" from="katip-mid-left-junc-2to3" to="katip-mid-left-junc-3to4" name="Katipunan Avenue" priority="12" type="highway.primary" spreadType="center" shape="293.54,827.93 292.49,807.38 292.05,798.94 291.14,781.36">
+        <lane id="L3_0" index="0" disallow="tram rail_urban rail rail_electric rail_fast ship" speed="16.67" length="46.48" shape="287.14,828.11 286.10,807.71 285.66,799.27 284.75,781.69">
+            <param key="origId" value="255885800"/>
+        </lane>
+        <lane id="L3_1" index="1" disallow="tram rail_urban rail rail_electric rail_fast ship" speed="16.67" length="46.48" shape="290.34,827.94 289.29,807.54 288.85,799.11 287.94,781.53">
+            <param key="origId" value="255885800"/>
+        </lane>
+        <lane id="L3_2" index="2" disallow="tram rail_urban rail rail_electric rail_fast ship" speed="16.67" length="46.48" shape="293.53,827.78 292.49,807.38 292.05,798.94 291.14,781.36">
+            <param key="origId" value="255885800"/>
+        </lane>
+        <lane id="L3_3" index="3" disallow="tram rail_urban rail rail_electric rail_fast ship" speed="16.67" length="46.48" shape="296.73,827.62 295.69,807.22 295.25,798.77 294.34,781.19">
+            <param key="origId" value="255885800"/>
+        </lane>
+        <lane id="L3_4" index="4" disallow="tram rail_urban rail rail_electric rail_fast ship" speed="16.67" length="46.48" shape="299.92,827.45 298.88,807.05 298.44,798.61 297.53,781.03">
+            <param key="origId" value="255885800"/>
+        </lane>
+        <param key="ref" value="11"/>
+    </edge>
+    <edge id="L4" from="katip-mid-left-junc-3to4" to="katip-upper-left-junc-4to5" name="Katipunan Avenue" priority="12" type="highway.primary" spreadType="center">
+        <lane id="L4_0" index="0" disallow="tram rail_urban rail rail_electric rail_fast ship" speed="16.67" length="26.94" shape="284.75,781.69 283.36,754.79">
+            <param key="origId" value="255885800"/>
+        </lane>
+        <lane id="L4_1" index="1" disallow="tram rail_urban rail rail_electric rail_fast ship" speed="16.67" length="26.94" shape="287.94,781.53 286.55,754.63">
+            <param key="origId" value="255885800"/>
+        </lane>
+        <lane id="L4_2" index="2" disallow="tram rail_urban rail rail_electric rail_fast ship" speed="16.67" length="26.94" shape="291.14,781.36 289.75,754.46">
+            <param key="origId" value="255885800"/>
+        </lane>
+        <lane id="L4_3" index="3" disallow="tram rail_urban rail rail_electric rail_fast ship" speed="16.67" length="26.94" shape="294.34,781.19 292.95,754.29">
+            <param key="origId" value="255885800"/>
+        </lane>
+        <lane id="L4_4" index="4" disallow="tram rail_urban rail rail_electric rail_fast ship" speed="16.67" length="26.94" shape="297.53,781.03 296.14,754.13">
+            <param key="origId" value="255885800"/>
+        </lane>
+        <param key="ref" value="11"/>
+    </edge>
+    <edge id="L5" from="katip-upper-left-junc-4to5" to="katip-upper-left-junc-5to6" name="Katipunan Avenue" priority="12" type="highway.primary" spreadType="center">
+        <lane id="L5_0" index="0" disallow="tram rail_urban rail rail_electric rail_fast ship" speed="16.67" length="23.13" shape="283.36,754.79 282.17,731.69">
+            <param key="origId" value="255885800"/>
+        </lane>
+        <lane id="L5_1" index="1" disallow="tram rail_urban rail rail_electric rail_fast ship" speed="16.67" length="23.13" shape="286.55,754.62 285.36,731.52">
+            <param key="origId" value="255885800"/>
+        </lane>
+        <lane id="L5_2" index="2" disallow="tram rail_urban rail rail_electric rail_fast ship" speed="16.67" length="23.13" shape="289.75,754.46 288.56,731.36">
+            <param key="origId" value="255885800"/>
+        </lane>
+        <lane id="L5_3" index="3" disallow="tram rail_urban rail rail_electric rail_fast ship" speed="16.67" length="23.13" shape="292.95,754.30 291.75,731.19">
+            <param key="origId" value="255885800"/>
+        </lane>
+        <lane id="L5_4" index="4" disallow="tram rail_urban rail rail_electric rail_fast ship" speed="16.67" length="23.13" shape="296.14,754.13 294.95,731.03">
+            <param key="origId" value="255885800"/>
+        </lane>
+        <param key="ref" value="11"/>
+    </edge>
+    <edge id="L6" from="katip-upper-left-junc-5to6" to="katip-university-road-f.dela-rosa" name="Katipunan Avenue" priority="12" type="highway.primary" spreadType="center" shape="288.55,731.21 287.73,715.25 287.64,713.89">
+        <lane id="L6_0" index="0" disallow="tram rail_urban rail rail_electric rail_fast ship" speed="16.67" length="3.83" shape="282.15,731.39 281.96,727.59">
+            <param key="origId" value="1068319162"/>
+        </lane>
+        <lane id="L6_1" index="1" disallow="tram rail_urban rail rail_electric rail_fast ship" speed="16.67" length="3.83" shape="285.35,731.22 285.15,727.41">
+            <param key="origId" value="1068319162"/>
+        </lane>
+        <lane id="L6_2" index="2" disallow="tram rail_urban rail rail_electric rail_fast ship" speed="16.67" length="3.83" shape="288.54,731.06 288.35,727.23">
+            <param key="origId" value="1068319162"/>
+        </lane>
+        <lane id="L6_3" index="3" disallow="tram rail_urban rail rail_electric rail_fast ship" speed="16.67" length="3.83" shape="291.74,730.90 291.54,727.06">
+            <param key="origId" value="1068319162"/>
+        </lane>
+        <lane id="L6_4" index="4" disallow="tram rail_urban rail rail_electric rail_fast ship" speed="16.67" length="3.83" shape="294.93,730.73 294.74,726.88">
+            <param key="origId" value="1068319162"/>
+        </lane>
+        <param key="origTo" value="3083905364"/>
+        <param key="ref" value="11"/>
+    </edge>
+    <edge id="L7" from="katip-university-road-f.dela-rosa" to="katip-bottom-left-junc-7to8" name="Katipunan Avenue" priority="12" type="highway.primary" spreadType="center" shape="287.64,713.89 286.00,689.12 284.36,664.45">
+        <lane id="L7_0" index="0" disallow="tram rail_urban rail rail_electric rail_fast ship" speed="16.67" length="39.50" shape="280.60,704.46 279.61,689.54 277.99,665.06">
+            <param key="origId" value="1111242234 933562735"/>
+        </lane>
+        <lane id="L7_1" index="1" disallow="tram rail_urban rail rail_electric rail_fast ship" speed="16.67" length="39.50" shape="283.79,704.25 282.81,689.33 281.18,664.85">
+            <param key="origId" value="1111242234 933562735"/>
+        </lane>
+        <lane id="L7_2" index="2" disallow="tram rail_urban rail rail_electric rail_fast ship" speed="16.67" length="39.50" shape="286.99,704.04 286.00,689.12 284.37,664.63">
+            <param key="origId" value="1111242234 933562735"/>
+        </lane>
+        <lane id="L7_3" index="3" disallow="tram rail_urban rail rail_electric rail_fast ship" speed="16.67" length="39.50" shape="290.18,703.83 289.19,688.91 287.57,664.42">
+            <param key="origId" value="1111242234 933562735"/>
+        </lane>
+        <lane id="L7_4" index="4" disallow="tram rail_urban rail rail_electric rail_fast ship" speed="16.67" length="39.50" shape="293.37,703.62 292.39,688.70 290.76,664.21">
+            <param key="origId" value="1111242234 933562735"/>
+        </lane>
+        <param key="origFrom" value="3083905364"/>
+        <param key="ref" value="11"/>
+    </edge>
+    <edge id="L8" from="katip-bottom-left-junc-7to8" to="katip-bottom-left-junc-8to9" name="Katipunan Avenue" priority="12" type="highway.primary" spreadType="center">
+        <lane id="L8_0" index="0" disallow="tram rail_urban rail rail_electric rail_fast ship" speed="16.67" length="19.35" shape="277.96,664.57 277.05,645.24">
+            <param key="origId" value="933562735"/>
+        </lane>
+        <lane id="L8_1" index="1" disallow="tram rail_urban rail rail_electric rail_fast ship" speed="16.67" length="19.35" shape="281.15,664.42 280.25,645.09">
+            <param key="origId" value="933562735"/>
+        </lane>
+        <lane id="L8_2" index="2" disallow="tram rail_urban rail rail_electric rail_fast ship" speed="16.67" length="19.35" shape="284.35,664.27 283.44,644.94">
+            <param key="origId" value="933562735"/>
+        </lane>
+        <lane id="L8_3" index="3" disallow="tram rail_urban rail rail_electric rail_fast ship" speed="16.67" length="19.35" shape="287.55,664.12 286.64,644.79">
+            <param key="origId" value="933562735"/>
+        </lane>
+        <lane id="L8_4" index="4" disallow="tram rail_urban rail rail_electric rail_fast ship" speed="16.67" length="19.35" shape="290.74,663.97 289.84,644.64">
+            <param key="origId" value="933562735"/>
+        </lane>
+        <param key="ref" value="11"/>
+    </edge>
+    <edge id="L9" from="katip-bottom-left-junc-8to9" to="katip-bottom-left-junc-9to10" name="Katipunan Avenue" priority="12" type="highway.primary" spreadType="center" shape="283.43,644.68 280.35,603.57 277.72,541.98 277.22,530.15">
+        <lane id="L9_0" index="0" disallow="tram rail_urban rail rail_electric rail_fast ship" speed="16.67" length="114.30" shape="277.03,644.90 273.96,603.95 271.33,542.25 270.83,530.57">
+            <param key="origId" value="933562735"/>
+        </lane>
+        <lane id="L9_1" index="1" disallow="tram rail_urban rail rail_electric rail_fast ship" speed="16.67" length="114.30" shape="280.22,644.66 277.16,603.76 274.52,542.12 274.03,530.43">
+            <param key="origId" value="933562735"/>
+        </lane>
+        <lane id="L9_2" index="2" disallow="tram rail_urban rail rail_electric rail_fast ship" speed="16.67" length="114.30" shape="283.41,644.42 280.35,603.57 277.72,541.98 277.23,530.30">
+            <param key="origId" value="933562735"/>
+        </lane>
+        <lane id="L9_3" index="3" disallow="tram rail_urban rail rail_electric rail_fast ship" speed="16.67" length="114.30" shape="286.60,644.18 283.54,603.38 280.92,541.84 280.42,530.16">
+            <param key="origId" value="933562735"/>
+        </lane>
+        <lane id="L9_4" index="4" disallow="tram rail_urban rail rail_electric rail_fast ship" speed="16.67" length="114.30" shape="289.79,643.94 286.74,603.19 284.11,541.71 283.62,530.03">
+            <param key="origId" value="933562735"/>
+        </lane>
+        <param key="ref" value="11"/>
+    </edge>
+    <edge id="R1" from="katip-top-right-curve" to="katip-top-right" name="Katipunan Avenue" priority="12" type="highway.primary" spreadType="center" shape="317.89,1111.73 312.18,1159.27 301.90,1258.95 290.09,1354.77">
+        <lane id="R1_0" index="0" disallow="tram rail_urban rail rail_electric rail_fast ship" speed="16.67" length="244.49" shape="322.64,1112.45 316.95,1159.80 306.67,1259.49 294.85,1355.36">
+            <param key="origId" value="1072704028"/>
+        </lane>
+        <lane id="R1_1" index="1" disallow="tram rail_urban rail rail_electric rail_fast ship" speed="16.67" length="244.49" shape="319.46,1112.06 313.77,1159.45 303.49,1259.13 291.68,1354.97">
+            <param key="origId" value="1072704028"/>
+        </lane>
+        <lane id="R1_2" index="2" disallow="tram rail_urban rail rail_electric rail_fast ship" speed="16.67" length="244.49" shape="316.28,1111.68 310.59,1159.09 300.31,1258.77 288.50,1354.57">
+            <param key="origId" value="1072704028"/>
+        </lane>
+        <lane id="R1_3" index="3" disallow="tram rail_urban rail rail_electric rail_fast ship" speed="16.67" length="244.49" shape="313.11,1111.30 307.41,1158.74 297.13,1258.41 285.33,1354.18">
+            <param key="origId" value="1072704028"/>
+        </lane>
+        <param key="ref" value="11"/>
+    </edge>
+    <edge id="R2" from="thornton-drive-exit" to="katip-top-right-curve" name="Katipunan Avenue" priority="12" type="highway.primary" spreadType="center" shape="320.37,970.95 323.71,1019.72 323.66,1030.20 319.65,1094.91 317.89,1111.73">
+        <lane id="R2_0" index="0" disallow="tram rail_urban rail rail_electric rail_fast ship" speed="16.67" length="133.42" shape="325.67,978.15 328.51,1019.57 328.46,1030.36 324.43,1095.31 322.68,1112.09">
+            <param key="origId" value="933973918"/>
+        </lane>
+        <lane id="R2_1" index="1" disallow="tram rail_urban rail rail_electric rail_fast ship" speed="16.67" length="133.42" shape="322.48,978.37 325.31,1019.67 325.26,1030.25 321.24,1095.04 319.50,1111.75">
+            <param key="origId" value="933973918"/>
+        </lane>
+        <lane id="R2_2" index="2" disallow="tram rail_urban rail rail_electric rail_fast ship" speed="16.67" length="133.42" shape="319.29,978.59 322.11,1019.77 322.06,1030.15 318.06,1094.78 316.31,1111.42">
+            <param key="origId" value="933973918"/>
+        </lane>
+        <lane id="R2_3" index="3" disallow="tram rail_urban rail rail_electric rail_fast ship" speed="16.67" length="133.42" shape="316.10,978.81 318.91,1019.87 318.86,1030.04 314.87,1094.51 313.13,1111.09">
+            <param key="origId" value="933973918"/>
+        </lane>
+        <param key="ref" value="11"/>
+    </edge>
+    <edge id="R3" from="katip-b.gonzales-thornton-drive-intersection" to="thornton-drive-exit" name="Katipunan Avenue" priority="12" type="highway.primary" spreadType="center" shape="316.36,930.47 320.37,970.95">
+        <lane id="R3_0" index="0" disallow="tram rail_urban rail rail_electric rail_fast ship" speed="16.67" length="21.97" shape="322.58,944.54 324.74,966.40">
+            <param key="origId" value="933973918"/>
+        </lane>
+        <lane id="R3_1" index="1" disallow="tram rail_urban rail rail_electric rail_fast ship" speed="16.67" length="21.97" shape="319.39,944.86 321.56,966.72">
+            <param key="origId" value="933973918"/>
+        </lane>
+        <lane id="R3_2" index="2" disallow="tram rail_urban rail rail_electric rail_fast ship" speed="16.67" length="21.97" shape="316.21,945.17 318.37,967.03">
+            <param key="origId" value="933973918"/>
+        </lane>
+        <lane id="R3_3" index="3" disallow="tram rail_urban rail rail_electric rail_fast ship" speed="16.67" length="21.97" shape="313.02,945.49 315.19,967.35">
+            <param key="origId" value="933973918"/>
+        </lane>
+        <param key="origFrom" value="34019953"/>
+        <param key="ref" value="11"/>
+    </edge>
+    <edge id="R4" from="katip-mid-right-junc-5to4" to="katip-b.gonzales-thornton-drive-intersection" name="Katipunan Avenue" priority="12" type="highway.primary" spreadType="center" shape="311.49,868.23 315.21,915.83 316.36,930.47">
+        <lane id="R4_0" index="0" disallow="tram rail_urban rail rail_electric rail_fast ship" speed="16.67" length="33.00" shape="316.59,871.83 319.17,904.86">
+            <param key="origId" value="1072455392"/>
+        </lane>
+        <lane id="R4_1" index="1" disallow="tram rail_urban rail rail_electric rail_fast ship" speed="16.67" length="33.00" shape="313.40,872.08 315.97,905.03">
+            <param key="origId" value="1072455392"/>
+        </lane>
+        <lane id="R4_2" index="2" disallow="tram rail_urban rail rail_electric rail_fast ship" speed="16.67" length="33.00" shape="310.21,872.33 312.77,905.19">
+            <param key="origId" value="1072455392"/>
+        </lane>
+        <lane id="R4_3" index="3" disallow="tram rail_urban rail rail_electric rail_fast ship" speed="16.67" length="33.00" shape="307.02,872.58 309.58,905.35">
+            <param key="origId" value="1072455392"/>
+        </lane>
+        <param key="origTo" value="34019953"/>
+        <param key="ref" value="11"/>
+    </edge>
+    <edge id="R5" from="273729962" to="katip-mid-right-junc-5to4" name="Katipunan Avenue" priority="12" type="highway.primary" spreadType="center">
+        <lane id="R5_0" index="0" disallow="tram rail_urban rail rail_electric rail_fast ship" speed="16.67" length="36.54" shape="312.42,827.59 314.46,864.07">
+            <param key="origId" value="933562736"/>
+        </lane>
+        <lane id="R5_1" index="1" disallow="tram rail_urban rail rail_electric rail_fast ship" speed="16.67" length="36.54" shape="309.23,827.77 311.27,864.25">
+            <param key="origId" value="933562736"/>
+        </lane>
+        <lane id="R5_2" index="2" disallow="tram rail_urban rail rail_electric rail_fast ship" speed="16.67" length="36.54" shape="306.03,827.95 308.07,864.43">
+            <param key="origId" value="933562736"/>
+        </lane>
+        <param key="ref" value="11"/>
+    </edge>
+    <edge id="R6" from="katip-university-road-f.dela-rosa" to="273729962" name="Katipunan Avenue" priority="12" type="highway.primary" spreadType="center" shape="303.16,719.03 306.59,780.91 308.23,810.00 309.22,827.62">
+        <lane id="R6_0" index="0" disallow="tram rail_urban rail rail_electric rail_fast ship" speed="16.67" length="101.24" shape="306.76,726.21 309.79,780.73 311.42,809.82 312.41,827.29">
+            <param key="origId" value="933562736"/>
+        </lane>
+        <lane id="R6_1" index="1" disallow="tram rail_urban rail rail_electric rail_fast ship" speed="16.67" length="101.24" shape="303.57,726.39 306.59,780.91 308.23,810.00 309.21,827.47">
+            <param key="origId" value="933562736"/>
+        </lane>
+        <lane id="R6_2" index="2" disallow="tram rail_urban rail rail_electric rail_fast ship" speed="16.67" length="101.24" shape="300.37,726.57 303.39,781.09 305.04,810.18 306.02,827.65">
+            <param key="origId" value="933562736"/>
+        </lane>
+        <param key="origFrom" value="10911035820"/>
+        <param key="ref" value="11"/>
+    </edge>
+    <edge id="R7" from="katip-bottom-right" to="katip-university-road-f.dela-rosa" name="Katipunan Avenue" priority="12" type="highway.primary" spreadType="center" shape="292.56,394.06 294.15,455.81 294.87,476.97 296.99,540.00 299.10,602.73 301.94,687.26 302.83,713.99">
+        <lane id="R7_0" index="0" disallow="tram rail_urban rail rail_electric rail_fast ship" speed="16.67" length="309.12" shape="295.76,393.98 297.35,455.71 298.07,476.86 300.19,539.89 302.30,602.62 305.14,687.15 305.66,702.81">
+            <param key="origId" value="324169517 1111242233"/>
+        </lane>
+        <lane id="R7_1" index="1" disallow="tram rail_urban rail rail_electric rail_fast ship" speed="16.67" length="309.12" shape="292.56,394.06 294.15,455.81 294.87,476.97 296.99,540.00 299.10,602.73 301.94,687.26 302.46,703.02">
+            <param key="origId" value="324169517 1111242233"/>
+        </lane>
+        <lane id="R7_2" index="2" disallow="tram rail_urban rail rail_electric rail_fast ship" speed="16.67" length="309.12" shape="289.36,394.14 290.95,455.91 291.67,477.08 293.79,540.11 295.90,602.84 298.74,687.37 299.27,703.23">
+            <param key="origId" value="324169517 1111242233"/>
+        </lane>
+        <param key="origTo" value="270687801"/>
+        <param key="ref" value="11"/>
+    </edge>
+    <edge id="b.gonzales-road" from="b.gonzales" to="katip-b.gonzales-thornton-drive-intersection" name="B. Gonzales" priority="3" type="highway.residential" shape="165.38,837.82 178.50,843.09 199.77,853.37 216.10,863.19 230.80,874.67 241.72,883.79 254.57,896.40 264.86,904.81 274.93,910.90 284.60,915.14 298.25,921.05">
+        <lane id="b.gonzales-road_0" index="0" disallow="tram rail_urban rail rail_electric rail_fast ship" speed="8.33" length="142.06" shape="167.28,833.41 180.44,838.70 202.06,849.14 218.82,859.23 233.82,870.94 244.94,880.23 257.78,892.82 267.63,900.88 277.15,906.63 285.39,910.24">
+            <param key="origId" value="4601333 620790485"/>
+        </lane>
+        <lane id="b.gonzales-road_1" index="1" disallow="tram rail_urban rail rail_electric rail_fast ship" speed="8.33" length="142.06" shape="166.09,836.38 179.15,841.63 200.53,851.96 217.01,861.87 231.81,873.43 242.79,882.60 255.64,895.21 265.78,903.50 275.67,909.48 284.12,913.18">
+            <param key="origId" value="4601333 620790485"/>
+        </lane>
+        <param key="origTo" value="4659861296"/>
+    </edge>
+    <edge id="f.dela-rosa-extension-road" from="f.dela-rosa-extension" to="f.dela-rosa" name="Fabian De La Rosa Street" priority="3" type="highway.residential" shape="42.90,633.20 147.45,667.97 156.99,673.20">
+        <lane id="f.dela-rosa-extension-road_0" index="0" disallow="tram rail_urban rail rail_electric rail_fast ship" speed="5.56" length="137.91" shape="44.41,628.65 149.38,663.55 173.57,676.81">
+            <param key="origId" value="4484500"/>
+        </lane>
+        <lane id="f.dela-rosa-extension-road_1" index="1" disallow="tram rail_urban rail rail_electric rail_fast ship" speed="5.56" length="137.91" shape="43.40,631.68 148.09,666.50 172.03,679.62">
+            <param key="origId" value="4484500"/>
+        </lane>
+    </edge>
+    <edge id="f.dela-rosa-road" from="f.dela-rosa" to="katip-university-road-f.dela-rosa" name="Fabian De La Rosa" priority="3" type="highway.residential" spreadType="center" shape="156.99,673.20 244.51,703.40 287.64,713.89">
+        <lane id="f.dela-rosa-road_0" index="0" disallow="tram rail_urban rail rail_electric rail_fast ship" speed="8.33" length="104.30" shape="175.73,677.97 244.96,701.86 275.00,709.17">
+            <param key="origId" value="457817286"/>
+        </lane>
+        <lane id="f.dela-rosa-road_1" index="1" disallow="tram rail_urban rail rail_electric rail_fast ship" speed="8.33" length="104.30" shape="174.69,681.00 244.06,704.94 274.25,712.28">
+            <param key="origId" value="457817286"/>
+        </lane>
+        <param key="origTo" value="3083905364"/>
+    </edge>
+    <edge id="thornton-drive-extension-outward" from="thornton-drive-extension" to="thornton-drive" priority="-1">
+        <lane id="thornton-drive-extension-outward_0" index="0" speed="13.89" length="188.45" shape="565.66,975.63 377.25,971.77"/>
+    </edge>
+    <edge id="thornton-drive-extension-towards" from="thornton-drive" to="thornton-drive-extension" priority="-1">
+        <lane id="thornton-drive-extension-towards_0" index="0" speed="13.89" length="188.45" shape="377.31,968.57 565.72,972.43"/>
+    </edge>
+    <edge id="thornton-drive-in" from="katip-b.gonzales-thornton-drive-intersection" to="thornton-drive" priority="-1">
+        <lane id="thornton-drive-in_0" index="0" speed="13.89" length="48.80" shape="329.75,938.59 370.54,965.37"/>
+    </edge>
+    <edge id="thornton-drive-lower-out" from="thornton-drive" to="katip-b.gonzales-thornton-drive-intersection" priority="-1">
+        <lane id="thornton-drive-lower-out_0" index="0" speed="13.89" length="48.80" shape="368.79,968.05 328.00,941.26"/>
+    </edge>
+    <edge id="thornton-drive-upper-out" from="thornton-drive" to="thornton-drive-exit" priority="-1">
+        <lane id="thornton-drive-upper-out_0" index="0" speed="13.89" length="36.72" shape="367.69,971.83 330.97,972.39"/>
+    </edge>
+    <edge id="univ-road-lower-in" from="katip-university-road-f.dela-rosa" to="univ-road-lower" priority="-1">
+        <lane id="univ-road-lower-in_0" index="0" speed="13.89" length="134.83" shape="316.12,711.84 450.26,698.24"/>
+    </edge>
+    <edge id="univ-road-lower-out" from="ateneo-lower" to="katip-university-road-f.dela-rosa" priority="-1">
+        <lane id="univ-road-lower-out_0" index="0" speed="13.89" length="156.24" shape="438.62,612.50 314.17,706.97"/>
+    </edge>
+    <edge id="univ-road-upper-in" from="katip-university-road-f.dela-rosa" to="univ-road-upper" priority="-1">
+        <lane id="univ-road-upper-in_0" index="0" speed="13.89" length="135.42" shape="315.86,716.13 449.01,740.80"/>
+    </edge>
+    <edge id="univ-road-upper-out" from="ateneo-upper" to="katip-university-road-f.dela-rosa" priority="-1">
+        <lane id="univ-road-upper-out_0" index="0" speed="13.89" length="147.65" shape="446.38,788.95 314.12,723.31"/>
+    </edge>
+
+    <tlLogic id="cluster_10911035819_10911035820_270687801_3083905364_#1more" type="static" programID="0" offset="0">
+        <phase duration="120" state="GGGGGrrrrrrrrGGGGGrrrrr" name="phase 1 - kuf"/>
+        <phase duration="3"  state="yyyyyrrrrrrrryyyyyrrrrr"/>
+        <phase duration="4"  state="rrrrrrrrrrrrrrrrrrrrrrr"/>
+        <phase duration="40" state="rrrrrrrrrrrGGrrrrrGGGGG" name="phase 2 - kuf"/>
+        <phase duration="3"  state="rrrrrrrrrrryyrrrrryyyyy"/>
+        <phase duration="4"  state="rrrrrrrrrrrrrrrrrrrrrrr"/>
+        <phase duration="42" state="rrrrrrrrGGGrrrrrrrrrrrr" name="phase 3 - kuf"/>
+        <phase duration="3"  state="rrrrrrrryyyrrrrrrrrrrrr"/>
+        <phase duration="4"  state="rrrrrrrrrrrrrrrrrrrrrrr"/>
+        <phase duration="26" state="GGGGGGGGrrrrrrrrrrrrrrr" name="phase 4 - kuf"/>
+        <phase duration="3"  state="yyyyyyyyrrrrrrrrrrrrrrr"/>
+        <phase duration="4"  state="rrrrrrrrrrrrrrrrrrrrrrr"/>
+    </tlLogic>
+    <tlLogic id="cluster_34019953_4659861296" type="static" programID="0" offset="0">
+        <phase duration="120" state="GGGGGrrrrrGGGGGrrrr" name="phase 1 - kbt"/>
+        <phase duration="3"  state="yyyyyrrrrryyyyyrrrr"/>
+        <phase duration="4"  state="rrrrrrrrrrrrrrrrrrr"/>
+        <phase duration="40" state="rrrrrrrrrrrrrrrGGGG" name="phase 2 - kbt"/>
+        <phase duration="3"  state="rrrrrrrrrrrrrrryyyy"/>
+        <phase duration="4"  state="rrrrrrrrrrrrrrrrrrr"/>
+        <phase duration="42" state="rrrrrrGGGGrrrrrrrrr" name="phase 3 - kbt"/>
+        <phase duration="3"  state="rrrrrryyyyrrrrrrrrr"/>
+        <phase duration="4"  state="rrrrrrrrrrrrrrrrrrr"/>
+        <phase duration="26" state="GGGGGGrrrrrrrrrrrrr" name="phase 4 - kbt"/>
+        <phase duration="3"  state="yyyyyyrrrrrrrrrrrrr"/>
+        <phase duration="4"  state="rrrrrrrrrrrrrrrrrrr"/>
+    </tlLogic>
+
+    <junction id="25007657" type="dead_end" x="115.19" y="0.00" incLanes="" intLanes="" shape="115.19,0.00"/>
+    <junction id="273729962" type="priority" x="309.22" y="827.62" incLanes="R6_0 R6_1 R6_2" intLanes=":273729962_0_0 :273729962_0_1 :273729962_0_2" shape="304.44,828.04 314.02,827.50 314.00,827.20 304.42,827.74">
+        <request index="0" response="000" foes="000" cont="0"/>
+        <request index="1" response="000" foes="000" cont="0"/>
+        <request index="2" response="000" foes="000" cont="0"/>
+    </junction>
+    <junction id="ateneo-lower" type="dead_end" x="437.65" y="611.23" incLanes="" intLanes="" shape="437.65,611.23 439.58,613.78"/>
+    <junction id="ateneo-upper" type="dead_end" x="447.09" y="787.52" incLanes="" intLanes="" shape="447.09,787.52 445.67,790.39"/>
+    <junction id="b.gonzales" type="priority" x="165.38" y="837.82" incLanes="727682001_0 727682001_1" intLanes=":b.gonzales_0_0 :b.gonzales_0_1" shape="165.49,837.86 167.88,831.93 167.56,831.80 165.27,837.78">
+        <request index="0" response="00" foes="00" cont="0"/>
+        <request index="1" response="00" foes="00" cont="0"/>
+    </junction>
+    <junction id="b.gonzales-extension" type="dead_end" x="54.95" y="795.41" incLanes="" intLanes="" shape="54.95,795.41 57.24,789.44"/>
+    <junction id="f.dela-rosa" type="priority" x="156.99" y="673.20" incLanes="f.dela-rosa-extension-road_0 f.dela-rosa-extension-road_1" intLanes=":f.dela-rosa_0_0 :f.dela-rosa_0_1" shape="174.17,682.51 176.25,676.46 175.51,676.15 175.27,676.00 175.03,675.84 174.74,675.65 174.34,675.41 171.26,681.02 172.31,681.64 172.67,681.86 173.04,682.06 173.51,682.27">
+        <request index="0" response="00" foes="00" cont="0"/>
+        <request index="1" response="00" foes="00" cont="0"/>
+    </junction>
+    <junction id="f.dela-rosa-extension" type="dead_end" x="42.90" y="633.20" incLanes="" intLanes="" shape="42.90,633.20 44.92,627.13"/>
+    <junction id="katip-b.gonzales-thornton-drive-intersection" type="traffic_light" x="307.30" y="925.76" incLanes="L1_0 L1_1 L1_2 L1_3 L1_4 thornton-drive-lower-out_0 R4_0 R4_1 R4_2 R4_3 b.gonzales-road_0 b.gonzales-road_1" intLanes=":katip-b.gonzales-thornton-drive-intersection_0_0 :katip-b.gonzales-thornton-drive-intersection_0_1 :katip-b.gonzales-thornton-drive-intersection_0_2 :katip-b.gonzales-thornton-drive-intersection_0_3 :katip-b.gonzales-thornton-drive-intersection_0_4 :katip-b.gonzales-thornton-drive-intersection_5_0 :katip-b.gonzales-thornton-drive-intersection_6_0 :katip-b.gonzales-thornton-drive-intersection_7_0 :katip-b.gonzales-thornton-drive-intersection_8_0 :katip-b.gonzales-thornton-drive-intersection_8_1 :katip-b.gonzales-thornton-drive-intersection_10_0 :katip-b.gonzales-thornton-drive-intersection_11_0 :katip-b.gonzales-thornton-drive-intersection_11_1 :katip-b.gonzales-thornton-drive-intersection_11_2 :katip-b.gonzales-thornton-drive-intersection_11_3 :katip-b.gonzales-thornton-drive-intersection_15_0 :katip-b.gonzales-thornton-drive-intersection_15_1 :katip-b.gonzales-thornton-drive-intersection_17_0 :katip-b.gonzales-thornton-drive-intersection_17_1" shape="291.64,947.59 324.17,944.39 324.32,942.42 324.71,941.95 325.31,941.82 326.11,942.04 327.12,942.60 330.63,937.25 328.21,934.94 326.10,931.39 324.30,926.60 322.81,920.57 321.63,913.29 320.77,904.78 289.49,906.38 289.20,908.42 288.73,908.98 288.04,909.22 287.14,909.16 286.03,908.78 283.48,914.65 285.53,916.37 287.31,919.59 288.81,924.33 290.03,930.57 290.97,938.33">
+        <request index="0"  response="0000000000000000000" foes="1111000001100000000" cont="0"/>
+        <request index="1"  response="0000000000000000000" foes="1111000001100000000" cont="0"/>
+        <request index="2"  response="0000000000000000000" foes="1111000001100000000" cont="0"/>
+        <request index="3"  response="0000000000000000000" foes="1111000001100000000" cont="0"/>
+        <request index="4"  response="0000000000000000000" foes="1111000001100000000" cont="0"/>
+        <request index="5"  response="0000111110000000000" foes="1100111111100000000" cont="0"/>
+        <request index="6"  response="1100111100000000000" foes="1100111100000000000" cont="0"/>
+        <request index="7"  response="0000111100000000000" foes="0000111100000000000" cont="0"/>
+        <request index="8"  response="0000111100000111111" foes="0000111100000111111" cont="0"/>
+        <request index="9"  response="0000111100000111111" foes="0000111100000111111" cont="0"/>
+        <request index="10" response="0000000000000000000" foes="0000000000000100000" cont="0"/>
+        <request index="11" response="0000000000000000000" foes="1100000001111100000" cont="0"/>
+        <request index="12" response="0000000000000000000" foes="1100000001111100000" cont="0"/>
+        <request index="13" response="0000000000000000000" foes="1100000001111100000" cont="0"/>
+        <request index="14" response="0000000000000000000" foes="1100000001111100000" cont="0"/>
+        <request index="15" response="0000000000000011111" foes="0000000000000011111" cont="0"/>
+        <request index="16" response="0000000000000011111" foes="0000000000000011111" cont="0"/>
+        <request index="17" response="0000111100000111111" foes="0000111100001111111" cont="0"/>
+        <request index="18" response="0000111100000111111" foes="0000111100001111111" cont="0"/>
+        <param key="origEdgeIds" value="-471833678 471833678"/>
+        <param key="origId" value="34019953 4659861296"/>
+    </junction>
+    <junction id="katip-bottom-left" type="dead_end" x="271.39" y="393.46" incLanes="L12_0 L12_1 L12_2 L12_3 L12_4" intLanes="" shape="263.40,393.80 279.39,393.12">
+        <param key="origEdgeIds" value="933562735#6"/>
+        <param key="origId" value="6505541742 8668450617"/>
+    </junction>
+    <junction id="katip-bottom-left-junc-10to11" type="priority" x="273.75" y="448.77" incLanes="L10_0 L10_1 L10_2 L10_3 L10_4" intLanes=":katip-bottom-left-junc-10to11_0_0 :katip-bottom-left-junc-10to11_0_1 :katip-bottom-left-junc-10to11_0_2 :katip-bottom-left-junc-10to11_0_3 :katip-bottom-left-junc-10to11_0_4" shape="265.76,449.26 281.75,448.58 281.74,448.28 265.75,448.96">
+        <request index="0" response="00000" foes="00000" cont="0"/>
+        <request index="1" response="00000" foes="00000" cont="0"/>
+        <request index="2" response="00000" foes="00000" cont="0"/>
+        <request index="3" response="00000" foes="00000" cont="0"/>
+        <request index="4" response="00000" foes="00000" cont="0"/>
+    </junction>
+    <junction id="katip-bottom-left-junc-7to8" type="priority" x="284.36" y="664.45" incLanes="L7_0 L7_1 L7_2 L7_3 L7_4" intLanes=":katip-bottom-left-junc-7to8_0_0 :katip-bottom-left-junc-7to8_0_1 :katip-bottom-left-junc-7to8_0_2 :katip-bottom-left-junc-7to8_0_3 :katip-bottom-left-junc-7to8_0_4" shape="276.39,665.16 292.35,664.10 292.34,663.89 276.36,664.64">
+        <request index="0" response="00000" foes="00000" cont="0"/>
+        <request index="1" response="00000" foes="00000" cont="0"/>
+        <request index="2" response="00000" foes="00000" cont="0"/>
+        <request index="3" response="00000" foes="00000" cont="0"/>
+        <request index="4" response="00000" foes="00000" cont="0"/>
+    </junction>
+    <junction id="katip-bottom-left-junc-8to9" type="priority" x="283.43" y="644.68" incLanes="L8_0 L8_1 L8_2 L8_3 L8_4" intLanes=":katip-bottom-left-junc-8to9_0_0 :katip-bottom-left-junc-8to9_0_1 :katip-bottom-left-junc-8to9_0_2 :katip-bottom-left-junc-8to9_0_3 :katip-bottom-left-junc-8to9_0_4" shape="275.45,645.31 291.43,644.56 291.39,643.82 275.43,645.02">
+        <request index="0" response="00000" foes="00000" cont="0"/>
+        <request index="1" response="00000" foes="00000" cont="0"/>
+        <request index="2" response="00000" foes="00000" cont="0"/>
+        <request index="3" response="00000" foes="00000" cont="0"/>
+        <request index="4" response="00000" foes="00000" cont="0"/>
+    </junction>
+    <junction id="katip-bottom-left-junc-9to10" type="priority" x="277.22" y="530.15" incLanes="L9_0 L9_1 L9_2 L9_3 L9_4" intLanes=":katip-bottom-left-junc-9to10_0_0 :katip-bottom-left-junc-9to10_0_1 :katip-bottom-left-junc-9to10_0_2 :katip-bottom-left-junc-9to10_0_3 :katip-bottom-left-junc-9to10_0_4" shape="269.23,530.64 285.22,529.96 285.21,529.66 269.22,530.34">
+        <request index="0" response="00000" foes="00000" cont="0"/>
+        <request index="1" response="00000" foes="00000" cont="0"/>
+        <request index="2" response="00000" foes="00000" cont="0"/>
+        <request index="3" response="00000" foes="00000" cont="0"/>
+        <request index="4" response="00000" foes="00000" cont="0"/>
+    </junction>
+    <junction id="katip-bottom-left-junc1" type="priority" x="272.69" y="423.68" incLanes="L11_0 L11_1 L11_2 L11_3 L11_4" intLanes=":katip-bottom-left-junc1_0_0 :katip-bottom-left-junc1_0_1 :katip-bottom-left-junc1_0_2 :katip-bottom-left-junc1_0_3 :katip-bottom-left-junc1_0_4" shape="264.70,424.17 280.69,423.49 280.68,423.19 264.69,423.87">
+        <request index="0" response="00000" foes="00000" cont="0"/>
+        <request index="1" response="00000" foes="00000" cont="0"/>
+        <request index="2" response="00000" foes="00000" cont="0"/>
+        <request index="3" response="00000" foes="00000" cont="0"/>
+        <request index="4" response="00000" foes="00000" cont="0"/>
+    </junction>
+    <junction id="katip-bottom-right" type="dead_end" x="292.56" y="394.06" incLanes="" intLanes="" shape="287.76,394.18 297.36,393.94"/>
+    <junction id="katip-mid-left-junc-2to3" type="priority" x="293.54" y="827.93" incLanes="L2_0 L2_1 L2_2 L2_3 L2_4" intLanes=":katip-mid-left-junc-2to3_0_0 :katip-mid-left-junc-2to3_0_1 :katip-mid-left-junc-2to3_0_2 :katip-mid-left-junc-2to3_0_3 :katip-mid-left-junc-2to3_0_4" shape="285.56,828.48 301.54,827.68 301.52,827.37 285.54,828.19">
+        <request index="0" response="00000" foes="00000" cont="0"/>
+        <request index="1" response="00000" foes="00000" cont="0"/>
+        <request index="2" response="00000" foes="00000" cont="0"/>
+        <request index="3" response="00000" foes="00000" cont="0"/>
+        <request index="4" response="00000" foes="00000" cont="0"/>
+    </junction>
+    <junction id="katip-mid-left-junc-3to4" type="priority" x="291.14" y="781.36" incLanes="L3_0 L3_1 L3_2 L3_3 L3_4" intLanes=":katip-mid-left-junc-3to4_0_0 :katip-mid-left-junc-3to4_0_1 :katip-mid-left-junc-3to4_0_2 :katip-mid-left-junc-3to4_0_3 :katip-mid-left-junc-3to4_0_4" shape="283.15,781.77 299.13,780.95 283.15,781.77">
+        <request index="0" response="00000" foes="00000" cont="0"/>
+        <request index="1" response="00000" foes="00000" cont="0"/>
+        <request index="2" response="00000" foes="00000" cont="0"/>
+        <request index="3" response="00000" foes="00000" cont="0"/>
+        <request index="4" response="00000" foes="00000" cont="0"/>
+    </junction>
+    <junction id="katip-mid-right-junc-5to4" type="priority" x="311.49" y="868.23" incLanes="R5_0 R5_1 R5_2" intLanes=":katip-mid-right-junc-5to4_0_0 :katip-mid-right-junc-5to4_0_1 :katip-mid-right-junc-5to4_0_2 :katip-mid-right-junc-5to4_0_3" shape="305.42,872.70 318.18,871.71 317.54,868.82 317.09,867.85 316.64,866.87 316.27,865.66 316.06,863.98 306.47,864.52 306.23,867.56 305.91,868.61 305.60,869.67 305.40,870.96">
+        <request index="0" response="0000" foes="0000" cont="0"/>
+        <request index="1" response="0000" foes="0000" cont="0"/>
+        <request index="2" response="0000" foes="0000" cont="0"/>
+        <request index="3" response="0000" foes="0000" cont="0"/>
+    </junction>
+    <junction id="katip-top-left" type="dead_end" x="267.62" y="1351.43" incLanes="" intLanes="" shape="275.55,1352.48 259.69,1350.38"/>
+    <junction id="katip-top-right" type="dead_end" x="290.09" y="1354.77" incLanes="R1_0 R1_1 R1_2 R1_3" intLanes="" shape="296.44,1355.55 283.74,1353.99"/>
+    <junction id="katip-top-right-curve" type="priority" x="317.89" y="1111.73" incLanes="R2_0 R2_1 R2_2 R2_3" intLanes=":katip-top-right-curve_0_0 :katip-top-right-curve_0_1 :katip-top-right-curve_0_2 :katip-top-right-curve_0_3" shape="324.27,1112.25 311.54,1110.92 311.52,1111.11 324.23,1112.64">
+        <request index="0" response="0000" foes="0000" cont="0"/>
+        <request index="1" response="0000" foes="0000" cont="0"/>
+        <request index="2" response="0000" foes="0000" cont="0"/>
+        <request index="3" response="0000" foes="0000" cont="0"/>
+    </junction>
+    <junction id="katip-university-road-f.dela-rosa" type="traffic_light" x="300.95" y="714.99" incLanes="L6_0 L6_1 L6_2 L6_3 L6_4 univ-road-upper-out_0 univ-road-lower-out_0 R7_0 R7_1 R7_2 f.dela-rosa-road_0 f.dela-rosa-road_1" intLanes=":katip-university-road-f.dela-rosa_0_0 :katip-university-road-f.dela-rosa_0_1 :katip-university-road-f.dela-rosa_0_2 :katip-university-road-f.dela-rosa_0_3 :katip-university-road-f.dela-rosa_0_4 :katip-university-road-f.dela-rosa_5_0 :katip-university-road-f.dela-rosa_6_0 :katip-university-road-f.dela-rosa_7_0 :katip-university-road-f.dela-rosa_8_0 :katip-university-road-f.dela-rosa_9_0 :katip-university-road-f.dela-rosa_9_1 :katip-university-road-f.dela-rosa_11_0 :katip-university-road-f.dela-rosa_11_1 :katip-university-road-f.dela-rosa_13_0 :katip-university-road-f.dela-rosa_14_0 :katip-university-road-f.dela-rosa_15_0 :katip-university-road-f.dela-rosa_15_1 :katip-university-road-f.dela-rosa_15_2 :katip-university-road-f.dela-rosa_18_0 :katip-university-road-f.dela-rosa_19_0 :katip-university-road-f.dela-rosa_20_0 :katip-university-road-f.dela-rosa_21_0 :katip-university-road-f.dela-rosa_21_1" shape="280.36,727.68 308.36,726.12 308.86,724.21 309.59,723.82 310.65,723.81 312.03,724.17 313.74,724.91 316.23,714.57 316.28,713.44 315.96,710.25 315.14,708.24 313.20,705.69 311.45,706.81 310.01,707.28 308.86,707.11 308.03,706.29 307.49,704.82 307.26,702.70 279.01,704.57 278.72,706.68 278.23,707.33 277.51,707.70 276.56,707.79 275.38,707.62 273.87,713.83 277.19,716.00 278.42,718.01 279.35,720.62 280.00,723.84">
+        <request index="0"  response="00000000000000000000000" foes="11111000001111000000000" cont="0"/>
+        <request index="1"  response="00000000000000000000000" foes="11111000001111000000000" cont="0"/>
+        <request index="2"  response="00000000000000000000000" foes="11111000001111000000000" cont="0"/>
+        <request index="3"  response="00000000000000000000000" foes="11111000001111000000000" cont="0"/>
+        <request index="4"  response="00000000000000000000000" foes="11111000001111000000000" cont="0"/>
+        <request index="5"  response="00000111111100000000000" foes="11110111111111000000000" cont="0"/>
+        <request index="6"  response="00000111100100000000000" foes="11100111100111000000000" cont="0"/>
+        <request index="7"  response="11000111000000000000000" foes="11000111000000000000000" cont="0"/>
+        <request index="8"  response="00000111000000000000000" foes="00000111000000000000000" cont="0"/>
+        <request index="9"  response="00110111000000001111111" foes="00110111001100001111111" cont="0"/>
+        <request index="10" response="00110111000000001111111" foes="00110111001100001111111" cont="0"/>
+        <request index="11" response="00000111110011000011111" foes="00000111110011001111111" cont="0"/>
+        <request index="12" response="00000111110011000011111" foes="00000111110011000111111" cont="0"/>
+        <request index="13" response="00000000000000000000000" foes="00010000001100000100000" cont="0"/>
+        <request index="14" response="00000000000000000000000" foes="00110000001100001100000" cont="0"/>
+        <request index="15" response="00000000000000000000000" foes="11110000001111111100000" cont="0"/>
+        <request index="16" response="00000000000000000000000" foes="11110000001111111100000" cont="0"/>
+        <request index="17" response="00000000000000000000000" foes="11110000001111111100000" cont="0"/>
+        <request index="18" response="00000000000000000011111" foes="00000000000000000011111" cont="0"/>
+        <request index="19" response="00000111110000000111111" foes="00000111110011000111111" cont="0"/>
+        <request index="20" response="00000111100000001111111" foes="00000111100011001111111" cont="0"/>
+        <request index="21" response="00000111000000001111111" foes="00000111000000011111111" cont="0"/>
+        <request index="22" response="00000111000000001111111" foes="00000111000000011111111" cont="0"/>
+        <param key="origEdgeIds" value="-24911809#0 -303894657 24911809#0 303894657 933562736#0 933562736#1"/>
+        <param key="origId" value="10911035819 10911035820 270687801 3083905364 3086853558"/>
+    </junction>
+    <junction id="katip-upper-left-junc-4to5" type="priority" x="289.75" y="754.46" incLanes="L4_0 L4_1 L4_2 L4_3 L4_4" intLanes=":katip-upper-left-junc-4to5_0_0 :katip-upper-left-junc-4to5_0_1 :katip-upper-left-junc-4to5_0_2 :katip-upper-left-junc-4to5_0_3 :katip-upper-left-junc-4to5_0_4" shape="281.76,754.87 297.74,754.05 281.76,754.87">
+        <request index="0" response="00000" foes="00000" cont="0"/>
+        <request index="1" response="00000" foes="00000" cont="0"/>
+        <request index="2" response="00000" foes="00000" cont="0"/>
+        <request index="3" response="00000" foes="00000" cont="0"/>
+        <request index="4" response="00000" foes="00000" cont="0"/>
+    </junction>
+    <junction id="katip-upper-left-junc-5to6" type="priority" x="288.55" y="731.21" incLanes="L5_0 L5_1 L5_2 L5_3 L5_4" intLanes=":katip-upper-left-junc-5to6_0_0 :katip-upper-left-junc-5to6_0_1 :katip-upper-left-junc-5to6_0_2 :katip-upper-left-junc-5to6_0_3 :katip-upper-left-junc-5to6_0_4" shape="280.57,731.77 296.55,730.95 296.53,730.65 280.55,731.47">
+        <request index="0" response="00000" foes="00000" cont="0"/>
+        <request index="1" response="00000" foes="00000" cont="0"/>
+        <request index="2" response="00000" foes="00000" cont="0"/>
+        <request index="3" response="00000" foes="00000" cont="0"/>
+        <request index="4" response="00000" foes="00000" cont="0"/>
+    </junction>
+    <junction id="thornton-drive" type="priority" x="374.86" y="970.12" incLanes="thornton-drive-extension-outward_0 thornton-drive-in_0" intLanes=":thornton-drive_0_0 :thornton-drive_1_0 :thornton-drive_2_0" shape="377.22,973.37 377.35,966.97 374.95,966.58 374.18,966.16 373.45,965.59 372.59,964.88 371.42,964.03 367.91,969.38 368.44,969.84 368.47,970.01 368.36,970.13 368.09,970.20 367.66,970.23 367.71,973.43">
+        <request index="0" response="000" foes="000" cont="0"/>
+        <request index="1" response="000" foes="000" cont="0"/>
+        <request index="2" response="000" foes="000" cont="0"/>
+    </junction>
+    <junction id="thornton-drive-exit" type="priority" x="320.37" y="970.95" incLanes="thornton-drive-upper-out_0 R3_0 R3_1 R3_2 R3_3" intLanes=":thornton-drive-exit_0_0 :thornton-drive-exit_0_1 :thornton-drive-exit_0_2 :thornton-drive-exit_3_0 :thornton-drive-exit_3_1 :thornton-drive-exit_3_2 :thornton-drive-exit_3_3" shape="314.50,978.91 327.27,978.04 327.56,975.82 328.07,975.03 328.81,974.47 329.78,974.12 331.00,973.99 330.95,970.79 328.59,970.31 327.72,969.68 327.05,968.80 326.59,967.65 326.33,966.24 313.60,967.50">
+        <request index="0" response="1111000" foes="1111000" cont="0"/>
+        <request index="1" response="1111000" foes="1111000" cont="0"/>
+        <request index="2" response="1111000" foes="1111000" cont="0"/>
+        <request index="3" response="0000000" foes="0000111" cont="0"/>
+        <request index="4" response="0000000" foes="0000111" cont="0"/>
+        <request index="5" response="0000000" foes="0000111" cont="0"/>
+        <request index="6" response="0000000" foes="0000111" cont="0"/>
+    </junction>
+    <junction id="thornton-drive-extension" type="dead_end" x="565.69" y="974.03" incLanes="thornton-drive-extension-towards_0" intLanes="" shape="565.69,974.03 565.76,970.83 565.69,974.03"/>
+    <junction id="univ-road-lower" type="dead_end" x="450.42" y="699.83" incLanes="univ-road-lower-in_0" intLanes="" shape="450.10,696.65 450.42,699.83"/>
+    <junction id="univ-road-upper" type="dead_end" x="448.72" y="742.37" incLanes="univ-road-upper-in_0" intLanes="" shape="449.30,739.22 448.72,742.37"/>
+
+    <connection from="727682001" to="b.gonzales-road" fromLane="0" toLane="0" via=":b.gonzales_0_0" dir="s" state="M"/>
+    <connection from="727682001" to="b.gonzales-road" fromLane="1" toLane="1" via=":b.gonzales_0_1" dir="s" state="M"/>
+    <connection from="L1" to="L2" fromLane="0" toLane="0" via=":katip-b.gonzales-thornton-drive-intersection_0_0" tl="cluster_34019953_4659861296" linkIndex="0" dir="s" state="O"/>
+    <connection from="L1" to="L2" fromLane="1" toLane="1" via=":katip-b.gonzales-thornton-drive-intersection_0_1" tl="cluster_34019953_4659861296" linkIndex="1" dir="s" state="O"/>
+    <connection from="L1" to="L2" fromLane="2" toLane="2" via=":katip-b.gonzales-thornton-drive-intersection_0_2" tl="cluster_34019953_4659861296" linkIndex="2" dir="s" state="O"/>
+    <connection from="L1" to="L2" fromLane="3" toLane="3" via=":katip-b.gonzales-thornton-drive-intersection_0_3" tl="cluster_34019953_4659861296" linkIndex="3" dir="s" state="O"/>
+    <connection from="L1" to="L2" fromLane="4" toLane="4" via=":katip-b.gonzales-thornton-drive-intersection_0_4" tl="cluster_34019953_4659861296" linkIndex="4" dir="s" state="O"/>
+    <connection from="L1" to="thornton-drive-in" fromLane="4" toLane="0" via=":katip-b.gonzales-thornton-drive-intersection_5_0" tl="cluster_34019953_4659861296" linkIndex="5" dir="l" state="o"/>
+    <connection from="L1" to="R3" fromLane="4" toLane="3" via=":katip-b.gonzales-thornton-drive-intersection_6_0" tl="cluster_34019953_4659861296" linkIndex="6" dir="t" state="o"/>
+    <connection from="L10" to="L11" fromLane="0" toLane="0" via=":katip-bottom-left-junc-10to11_0_0" dir="s" state="M"/>
+    <connection from="L10" to="L11" fromLane="1" toLane="1" via=":katip-bottom-left-junc-10to11_0_1" dir="s" state="M"/>
+    <connection from="L10" to="L11" fromLane="2" toLane="2" via=":katip-bottom-left-junc-10to11_0_2" dir="s" state="M"/>
+    <connection from="L10" to="L11" fromLane="3" toLane="3" via=":katip-bottom-left-junc-10to11_0_3" dir="s" state="M"/>
+    <connection from="L10" to="L11" fromLane="4" toLane="4" via=":katip-bottom-left-junc-10to11_0_4" dir="s" state="M"/>
+    <connection from="L11" to="L12" fromLane="0" toLane="0" via=":katip-bottom-left-junc1_0_0" dir="s" state="M"/>
+    <connection from="L11" to="L12" fromLane="1" toLane="1" via=":katip-bottom-left-junc1_0_1" dir="s" state="M"/>
+    <connection from="L11" to="L12" fromLane="2" toLane="2" via=":katip-bottom-left-junc1_0_2" dir="s" state="M"/>
+    <connection from="L11" to="L12" fromLane="3" toLane="3" via=":katip-bottom-left-junc1_0_3" dir="s" state="M"/>
+    <connection from="L11" to="L12" fromLane="4" toLane="4" via=":katip-bottom-left-junc1_0_4" dir="s" state="M"/>
+    <connection from="L2" to="L3" fromLane="0" toLane="0" via=":katip-mid-left-junc-2to3_0_0" dir="s" state="M"/>
+    <connection from="L2" to="L3" fromLane="1" toLane="1" via=":katip-mid-left-junc-2to3_0_1" dir="s" state="M"/>
+    <connection from="L2" to="L3" fromLane="2" toLane="2" via=":katip-mid-left-junc-2to3_0_2" dir="s" state="M"/>
+    <connection from="L2" to="L3" fromLane="3" toLane="3" via=":katip-mid-left-junc-2to3_0_3" dir="s" state="M"/>
+    <connection from="L2" to="L3" fromLane="4" toLane="4" via=":katip-mid-left-junc-2to3_0_4" dir="s" state="M"/>
+    <connection from="L3" to="L4" fromLane="0" toLane="0" via=":katip-mid-left-junc-3to4_0_0" dir="s" state="M"/>
+    <connection from="L3" to="L4" fromLane="1" toLane="1" via=":katip-mid-left-junc-3to4_0_1" dir="s" state="M"/>
+    <connection from="L3" to="L4" fromLane="2" toLane="2" via=":katip-mid-left-junc-3to4_0_2" dir="s" state="M"/>
+    <connection from="L3" to="L4" fromLane="3" toLane="3" via=":katip-mid-left-junc-3to4_0_3" dir="s" state="M"/>
+    <connection from="L3" to="L4" fromLane="4" toLane="4" via=":katip-mid-left-junc-3to4_0_4" dir="s" state="M"/>
+    <connection from="L4" to="L5" fromLane="0" toLane="0" via=":katip-upper-left-junc-4to5_0_0" dir="s" state="M"/>
+    <connection from="L4" to="L5" fromLane="1" toLane="1" via=":katip-upper-left-junc-4to5_0_1" dir="s" state="M"/>
+    <connection from="L4" to="L5" fromLane="2" toLane="2" via=":katip-upper-left-junc-4to5_0_2" dir="s" state="M"/>
+    <connection from="L4" to="L5" fromLane="3" toLane="3" via=":katip-upper-left-junc-4to5_0_3" dir="s" state="M"/>
+    <connection from="L4" to="L5" fromLane="4" toLane="4" via=":katip-upper-left-junc-4to5_0_4" dir="s" state="M"/>
+    <connection from="L5" to="L6" fromLane="0" toLane="0" via=":katip-upper-left-junc-5to6_0_0" dir="s" state="M"/>
+    <connection from="L5" to="L6" fromLane="1" toLane="1" via=":katip-upper-left-junc-5to6_0_1" dir="s" state="M"/>
+    <connection from="L5" to="L6" fromLane="2" toLane="2" via=":katip-upper-left-junc-5to6_0_2" dir="s" state="M"/>
+    <connection from="L5" to="L6" fromLane="3" toLane="3" via=":katip-upper-left-junc-5to6_0_3" dir="s" state="M"/>
+    <connection from="L5" to="L6" fromLane="4" toLane="4" via=":katip-upper-left-junc-5to6_0_4" dir="s" state="M"/>
+    <connection from="L6" to="L7" fromLane="0" toLane="0" via=":katip-university-road-f.dela-rosa_0_0" tl="cluster_10911035819_10911035820_270687801_3083905364_#1more" linkIndex="0" dir="s" state="O"/>
+    <connection from="L6" to="L7" fromLane="1" toLane="1" via=":katip-university-road-f.dela-rosa_0_1" tl="cluster_10911035819_10911035820_270687801_3083905364_#1more" linkIndex="1" dir="s" state="O"/>
+    <connection from="L6" to="L7" fromLane="2" toLane="2" via=":katip-university-road-f.dela-rosa_0_2" tl="cluster_10911035819_10911035820_270687801_3083905364_#1more" linkIndex="2" dir="s" state="O"/>
+    <connection from="L6" to="L7" fromLane="2" toLane="3" via=":katip-university-road-f.dela-rosa_0_3" tl="cluster_10911035819_10911035820_270687801_3083905364_#1more" linkIndex="3" dir="s" state="O"/>
+    <connection from="L6" to="L7" fromLane="2" toLane="4" via=":katip-university-road-f.dela-rosa_0_4" tl="cluster_10911035819_10911035820_270687801_3083905364_#1more" linkIndex="4" dir="s" state="O"/>
+    <connection from="L6" to="univ-road-lower-in" fromLane="3" toLane="0" via=":katip-university-road-f.dela-rosa_5_0" tl="cluster_10911035819_10911035820_270687801_3083905364_#1more" linkIndex="5" dir="L" state="o"/>
+    <connection from="L6" to="univ-road-upper-in" fromLane="3" toLane="0" via=":katip-university-road-f.dela-rosa_6_0" tl="cluster_10911035819_10911035820_270687801_3083905364_#1more" linkIndex="6" dir="l" state="o"/>
+    <connection from="L6" to="R6" fromLane="4" toLane="2" via=":katip-university-road-f.dela-rosa_7_0" tl="cluster_10911035819_10911035820_270687801_3083905364_#1more" linkIndex="7" dir="t" state="o"/>
+    <connection from="L7" to="L8" fromLane="0" toLane="0" via=":katip-bottom-left-junc-7to8_0_0" dir="s" state="M"/>
+    <connection from="L7" to="L8" fromLane="1" toLane="1" via=":katip-bottom-left-junc-7to8_0_1" dir="s" state="M"/>
+    <connection from="L7" to="L8" fromLane="2" toLane="2" via=":katip-bottom-left-junc-7to8_0_2" dir="s" state="M"/>
+    <connection from="L7" to="L8" fromLane="3" toLane="3" via=":katip-bottom-left-junc-7to8_0_3" dir="s" state="M"/>
+    <connection from="L7" to="L8" fromLane="4" toLane="4" via=":katip-bottom-left-junc-7to8_0_4" dir="s" state="M"/>
+    <connection from="L8" to="L9" fromLane="0" toLane="0" via=":katip-bottom-left-junc-8to9_0_0" dir="s" state="M"/>
+    <connection from="L8" to="L9" fromLane="1" toLane="1" via=":katip-bottom-left-junc-8to9_0_1" dir="s" state="M"/>
+    <connection from="L8" to="L9" fromLane="2" toLane="2" via=":katip-bottom-left-junc-8to9_0_2" dir="s" state="M"/>
+    <connection from="L8" to="L9" fromLane="3" toLane="3" via=":katip-bottom-left-junc-8to9_0_3" dir="s" state="M"/>
+    <connection from="L8" to="L9" fromLane="4" toLane="4" via=":katip-bottom-left-junc-8to9_0_4" dir="s" state="M"/>
+    <connection from="L9" to="L10" fromLane="0" toLane="0" via=":katip-bottom-left-junc-9to10_0_0" dir="s" state="M"/>
+    <connection from="L9" to="L10" fromLane="1" toLane="1" via=":katip-bottom-left-junc-9to10_0_1" dir="s" state="M"/>
+    <connection from="L9" to="L10" fromLane="2" toLane="2" via=":katip-bottom-left-junc-9to10_0_2" dir="s" state="M"/>
+    <connection from="L9" to="L10" fromLane="3" toLane="3" via=":katip-bottom-left-junc-9to10_0_3" dir="s" state="M"/>
+    <connection from="L9" to="L10" fromLane="4" toLane="4" via=":katip-bottom-left-junc-9to10_0_4" dir="s" state="M"/>
+    <connection from="R2" to="R1" fromLane="0" toLane="0" via=":katip-top-right-curve_0_0" dir="s" state="M"/>
+    <connection from="R2" to="R1" fromLane="1" toLane="1" via=":katip-top-right-curve_0_1" dir="s" state="M"/>
+    <connection from="R2" to="R1" fromLane="2" toLane="2" via=":katip-top-right-curve_0_2" dir="s" state="M"/>
+    <connection from="R2" to="R1" fromLane="3" toLane="3" via=":katip-top-right-curve_0_3" dir="s" state="M"/>
+    <connection from="R3" to="R2" fromLane="0" toLane="0" via=":thornton-drive-exit_3_0" dir="s" state="M"/>
+    <connection from="R3" to="R2" fromLane="1" toLane="1" via=":thornton-drive-exit_3_1" dir="s" state="M"/>
+    <connection from="R3" to="R2" fromLane="2" toLane="2" via=":thornton-drive-exit_3_2" dir="s" state="M"/>
+    <connection from="R3" to="R2" fromLane="3" toLane="3" via=":thornton-drive-exit_3_3" dir="s" state="M"/>
+    <connection from="R4" to="thornton-drive-in" fromLane="0" toLane="0" via=":katip-b.gonzales-thornton-drive-intersection_10_0" tl="cluster_34019953_4659861296" linkIndex="10" dir="r" state="O"/>
+    <connection from="R4" to="R3" fromLane="0" toLane="0" via=":katip-b.gonzales-thornton-drive-intersection_11_0" tl="cluster_34019953_4659861296" linkIndex="11" dir="s" state="O"/>
+    <connection from="R4" to="R3" fromLane="1" toLane="1" via=":katip-b.gonzales-thornton-drive-intersection_11_1" tl="cluster_34019953_4659861296" linkIndex="12" dir="s" state="O"/>
+    <connection from="R4" to="R3" fromLane="2" toLane="2" via=":katip-b.gonzales-thornton-drive-intersection_11_2" tl="cluster_34019953_4659861296" linkIndex="13" dir="s" state="O"/>
+    <connection from="R4" to="R3" fromLane="3" toLane="3" via=":katip-b.gonzales-thornton-drive-intersection_11_3" tl="cluster_34019953_4659861296" linkIndex="14" dir="s" state="O"/>
+    <connection from="R5" to="R4" fromLane="0" toLane="0" via=":katip-mid-right-junc-5to4_0_0" dir="s" state="M"/>
+    <connection from="R5" to="R4" fromLane="1" toLane="1" via=":katip-mid-right-junc-5to4_0_1" dir="s" state="M"/>
+    <connection from="R5" to="R4" fromLane="2" toLane="2" via=":katip-mid-right-junc-5to4_0_2" dir="s" state="M"/>
+    <connection from="R5" to="R4" fromLane="2" toLane="3" via=":katip-mid-right-junc-5to4_0_3" dir="s" state="M"/>
+    <connection from="R6" to="R5" fromLane="0" toLane="0" via=":273729962_0_0" dir="s" state="M"/>
+    <connection from="R6" to="R5" fromLane="1" toLane="1" via=":273729962_0_1" dir="s" state="M"/>
+    <connection from="R6" to="R5" fromLane="2" toLane="2" via=":273729962_0_2" dir="s" state="M"/>
+    <connection from="R7" to="univ-road-lower-in" fromLane="0" toLane="0" via=":katip-university-road-f.dela-rosa_13_0" tl="cluster_10911035819_10911035820_270687801_3083905364_#1more" linkIndex="13" dir="r" state="O"/>
+    <connection from="R7" to="univ-road-upper-in" fromLane="0" toLane="0" via=":katip-university-road-f.dela-rosa_14_0" tl="cluster_10911035819_10911035820_270687801_3083905364_#1more" linkIndex="14" dir="R" state="O"/>
+    <connection from="R7" to="R6" fromLane="0" toLane="0" via=":katip-university-road-f.dela-rosa_15_0" tl="cluster_10911035819_10911035820_270687801_3083905364_#1more" linkIndex="15" dir="s" state="O"/>
+    <connection from="R7" to="R6" fromLane="1" toLane="1" via=":katip-university-road-f.dela-rosa_15_1" tl="cluster_10911035819_10911035820_270687801_3083905364_#1more" linkIndex="16" dir="s" state="O"/>
+    <connection from="R7" to="R6" fromLane="2" toLane="2" via=":katip-university-road-f.dela-rosa_15_2" tl="cluster_10911035819_10911035820_270687801_3083905364_#1more" linkIndex="17" dir="s" state="O"/>
+    <connection from="b.gonzales-road" to="L2" fromLane="0" toLane="0" via=":katip-b.gonzales-thornton-drive-intersection_15_0" tl="cluster_34019953_4659861296" linkIndex="15" dir="r" state="o"/>
+    <connection from="b.gonzales-road" to="L2" fromLane="0" toLane="1" via=":katip-b.gonzales-thornton-drive-intersection_15_1" tl="cluster_34019953_4659861296" linkIndex="16" dir="r" state="o"/>
+    <connection from="b.gonzales-road" to="R3" fromLane="1" toLane="2" via=":katip-b.gonzales-thornton-drive-intersection_17_0" tl="cluster_34019953_4659861296" linkIndex="17" dir="l" state="o"/>
+    <connection from="b.gonzales-road" to="R3" fromLane="1" toLane="3" via=":katip-b.gonzales-thornton-drive-intersection_17_1" tl="cluster_34019953_4659861296" linkIndex="18" dir="l" state="o"/>
+    <connection from="f.dela-rosa-extension-road" to="f.dela-rosa-road" fromLane="0" toLane="0" via=":f.dela-rosa_0_0" dir="s" state="M"/>
+    <connection from="f.dela-rosa-extension-road" to="f.dela-rosa-road" fromLane="1" toLane="1" via=":f.dela-rosa_0_1" dir="s" state="M"/>
+    <connection from="f.dela-rosa-road" to="L7" fromLane="0" toLane="0" via=":katip-university-road-f.dela-rosa_18_0" tl="cluster_10911035819_10911035820_270687801_3083905364_#1more" linkIndex="18" dir="r" state="o"/>
+    <connection from="f.dela-rosa-road" to="univ-road-lower-in" fromLane="0" toLane="0" via=":katip-university-road-f.dela-rosa_19_0" tl="cluster_10911035819_10911035820_270687801_3083905364_#1more" linkIndex="19" dir="R" state="o"/>
+    <connection from="f.dela-rosa-road" to="univ-road-upper-in" fromLane="0" toLane="0" via=":katip-university-road-f.dela-rosa_20_0" tl="cluster_10911035819_10911035820_270687801_3083905364_#1more" linkIndex="20" dir="s" state="o"/>
+    <connection from="f.dela-rosa-road" to="R6" fromLane="1" toLane="1" via=":katip-university-road-f.dela-rosa_21_0" tl="cluster_10911035819_10911035820_270687801_3083905364_#1more" linkIndex="21" dir="l" state="o"/>
+    <connection from="f.dela-rosa-road" to="R6" fromLane="1" toLane="2" via=":katip-university-road-f.dela-rosa_21_1" tl="cluster_10911035819_10911035820_270687801_3083905364_#1more" linkIndex="22" dir="l" state="o"/>
+    <connection from="thornton-drive-extension-outward" to="thornton-drive-upper-out" fromLane="0" toLane="0" via=":thornton-drive_0_0" dir="s" state="M"/>
+    <connection from="thornton-drive-extension-outward" to="thornton-drive-lower-out" fromLane="0" toLane="0" via=":thornton-drive_1_0" dir="L" state="M"/>
+    <connection from="thornton-drive-in" to="thornton-drive-extension-towards" fromLane="0" toLane="0" via=":thornton-drive_2_0" dir="s" state="M"/>
+    <connection from="thornton-drive-lower-out" to="R3" fromLane="0" toLane="0" via=":katip-b.gonzales-thornton-drive-intersection_7_0" tl="cluster_34019953_4659861296" linkIndex="7" dir="r" state="o"/>
+    <connection from="thornton-drive-lower-out" to="L2" fromLane="0" toLane="3" via=":katip-b.gonzales-thornton-drive-intersection_8_0" tl="cluster_34019953_4659861296" linkIndex="8" dir="l" state="o"/>
+    <connection from="thornton-drive-lower-out" to="L2" fromLane="0" toLane="4" via=":katip-b.gonzales-thornton-drive-intersection_8_1" tl="cluster_34019953_4659861296" linkIndex="9" dir="l" state="o"/>
+    <connection from="thornton-drive-upper-out" to="R2" fromLane="0" toLane="0" via=":thornton-drive-exit_0_0" dir="r" state="m"/>
+    <connection from="thornton-drive-upper-out" to="R2" fromLane="0" toLane="1" via=":thornton-drive-exit_0_1" dir="r" state="m"/>
+    <connection from="thornton-drive-upper-out" to="R2" fromLane="0" toLane="2" via=":thornton-drive-exit_0_2" dir="r" state="m"/>
+    <connection from="univ-road-lower-out" to="L7" fromLane="0" toLane="3" via=":katip-university-road-f.dela-rosa_11_0" tl="cluster_10911035819_10911035820_270687801_3083905364_#1more" linkIndex="11" dir="l" state="o"/>
+    <connection from="univ-road-lower-out" to="L7" fromLane="0" toLane="4" via=":katip-university-road-f.dela-rosa_11_1" tl="cluster_10911035819_10911035820_270687801_3083905364_#1more" linkIndex="12" dir="l" state="o"/>
+    <connection from="univ-road-upper-out" to="R6" fromLane="0" toLane="0" via=":katip-university-road-f.dela-rosa_8_0" tl="cluster_10911035819_10911035820_270687801_3083905364_#1more" linkIndex="8" dir="r" state="o"/>
+    <connection from="univ-road-upper-out" to="L7" fromLane="0" toLane="3" via=":katip-university-road-f.dela-rosa_9_0" tl="cluster_10911035819_10911035820_270687801_3083905364_#1more" linkIndex="9" dir="L" state="o"/>
+    <connection from="univ-road-upper-out" to="L7" fromLane="0" toLane="4" via=":katip-university-road-f.dela-rosa_9_1" tl="cluster_10911035819_10911035820_270687801_3083905364_#1more" linkIndex="10" dir="L" state="o"/>
+
+    <connection from=":273729962_0" to="R5" fromLane="0" toLane="0" dir="s" state="M"/>
+    <connection from=":273729962_0" to="R5" fromLane="1" toLane="1" dir="s" state="M"/>
+    <connection from=":273729962_0" to="R5" fromLane="2" toLane="2" dir="s" state="M"/>
+    <connection from=":b.gonzales_0" to="b.gonzales-road" fromLane="0" toLane="0" dir="s" state="M"/>
+    <connection from=":b.gonzales_0" to="b.gonzales-road" fromLane="1" toLane="1" dir="s" state="M"/>
+    <connection from=":f.dela-rosa_0" to="f.dela-rosa-road" fromLane="0" toLane="0" dir="s" state="M"/>
+    <connection from=":f.dela-rosa_0" to="f.dela-rosa-road" fromLane="1" toLane="1" dir="s" state="M"/>
+    <connection from=":katip-b.gonzales-thornton-drive-intersection_0" to="L2" fromLane="0" toLane="0" dir="s" state="M"/>
+    <connection from=":katip-b.gonzales-thornton-drive-intersection_0" to="L2" fromLane="1" toLane="1" dir="s" state="M"/>
+    <connection from=":katip-b.gonzales-thornton-drive-intersection_0" to="L2" fromLane="2" toLane="2" dir="s" state="M"/>
+    <connection from=":katip-b.gonzales-thornton-drive-intersection_0" to="L2" fromLane="3" toLane="3" dir="s" state="M"/>
+    <connection from=":katip-b.gonzales-thornton-drive-intersection_0" to="L2" fromLane="4" toLane="4" dir="s" state="M"/>
+    <connection from=":katip-b.gonzales-thornton-drive-intersection_5" to="thornton-drive-in" fromLane="0" toLane="0" dir="l" state="M"/>
+    <connection from=":katip-b.gonzales-thornton-drive-intersection_6" to="R3" fromLane="0" toLane="3" dir="t" state="M"/>
+    <connection from=":katip-b.gonzales-thornton-drive-intersection_7" to="R3" fromLane="0" toLane="0" dir="r" state="M"/>
+    <connection from=":katip-b.gonzales-thornton-drive-intersection_8" to="L2" fromLane="0" toLane="3" dir="l" state="M"/>
+    <connection from=":katip-b.gonzales-thornton-drive-intersection_8" to="L2" fromLane="1" toLane="4" dir="l" state="M"/>
+    <connection from=":katip-b.gonzales-thornton-drive-intersection_10" to="thornton-drive-in" fromLane="0" toLane="0" dir="r" state="M"/>
+    <connection from=":katip-b.gonzales-thornton-drive-intersection_11" to="R3" fromLane="0" toLane="0" dir="s" state="M"/>
+    <connection from=":katip-b.gonzales-thornton-drive-intersection_11" to="R3" fromLane="1" toLane="1" dir="s" state="M"/>
+    <connection from=":katip-b.gonzales-thornton-drive-intersection_11" to="R3" fromLane="2" toLane="2" dir="s" state="M"/>
+    <connection from=":katip-b.gonzales-thornton-drive-intersection_11" to="R3" fromLane="3" toLane="3" dir="s" state="M"/>
+    <connection from=":katip-b.gonzales-thornton-drive-intersection_15" to="L2" fromLane="0" toLane="0" dir="r" state="M"/>
+    <connection from=":katip-b.gonzales-thornton-drive-intersection_15" to="L2" fromLane="1" toLane="1" dir="r" state="M"/>
+    <connection from=":katip-b.gonzales-thornton-drive-intersection_17" to="R3" fromLane="0" toLane="2" dir="l" state="M"/>
+    <connection from=":katip-b.gonzales-thornton-drive-intersection_17" to="R3" fromLane="1" toLane="3" dir="l" state="M"/>
+    <connection from=":katip-bottom-left-junc-10to11_0" to="L11" fromLane="0" toLane="0" dir="s" state="M"/>
+    <connection from=":katip-bottom-left-junc-10to11_0" to="L11" fromLane="1" toLane="1" dir="s" state="M"/>
+    <connection from=":katip-bottom-left-junc-10to11_0" to="L11" fromLane="2" toLane="2" dir="s" state="M"/>
+    <connection from=":katip-bottom-left-junc-10to11_0" to="L11" fromLane="3" toLane="3" dir="s" state="M"/>
+    <connection from=":katip-bottom-left-junc-10to11_0" to="L11" fromLane="4" toLane="4" dir="s" state="M"/>
+    <connection from=":katip-bottom-left-junc-7to8_0" to="L8" fromLane="0" toLane="0" dir="s" state="M"/>
+    <connection from=":katip-bottom-left-junc-7to8_0" to="L8" fromLane="1" toLane="1" dir="s" state="M"/>
+    <connection from=":katip-bottom-left-junc-7to8_0" to="L8" fromLane="2" toLane="2" dir="s" state="M"/>
+    <connection from=":katip-bottom-left-junc-7to8_0" to="L8" fromLane="3" toLane="3" dir="s" state="M"/>
+    <connection from=":katip-bottom-left-junc-7to8_0" to="L8" fromLane="4" toLane="4" dir="s" state="M"/>
+    <connection from=":katip-bottom-left-junc-8to9_0" to="L9" fromLane="0" toLane="0" dir="s" state="M"/>
+    <connection from=":katip-bottom-left-junc-8to9_0" to="L9" fromLane="1" toLane="1" dir="s" state="M"/>
+    <connection from=":katip-bottom-left-junc-8to9_0" to="L9" fromLane="2" toLane="2" dir="s" state="M"/>
+    <connection from=":katip-bottom-left-junc-8to9_0" to="L9" fromLane="3" toLane="3" dir="s" state="M"/>
+    <connection from=":katip-bottom-left-junc-8to9_0" to="L9" fromLane="4" toLane="4" dir="s" state="M"/>
+    <connection from=":katip-bottom-left-junc-9to10_0" to="L10" fromLane="0" toLane="0" dir="s" state="M"/>
+    <connection from=":katip-bottom-left-junc-9to10_0" to="L10" fromLane="1" toLane="1" dir="s" state="M"/>
+    <connection from=":katip-bottom-left-junc-9to10_0" to="L10" fromLane="2" toLane="2" dir="s" state="M"/>
+    <connection from=":katip-bottom-left-junc-9to10_0" to="L10" fromLane="3" toLane="3" dir="s" state="M"/>
+    <connection from=":katip-bottom-left-junc-9to10_0" to="L10" fromLane="4" toLane="4" dir="s" state="M"/>
+    <connection from=":katip-bottom-left-junc1_0" to="L12" fromLane="0" toLane="0" dir="s" state="M"/>
+    <connection from=":katip-bottom-left-junc1_0" to="L12" fromLane="1" toLane="1" dir="s" state="M"/>
+    <connection from=":katip-bottom-left-junc1_0" to="L12" fromLane="2" toLane="2" dir="s" state="M"/>
+    <connection from=":katip-bottom-left-junc1_0" to="L12" fromLane="3" toLane="3" dir="s" state="M"/>
+    <connection from=":katip-bottom-left-junc1_0" to="L12" fromLane="4" toLane="4" dir="s" state="M"/>
+    <connection from=":katip-mid-left-junc-2to3_0" to="L3" fromLane="0" toLane="0" dir="s" state="M"/>
+    <connection from=":katip-mid-left-junc-2to3_0" to="L3" fromLane="1" toLane="1" dir="s" state="M"/>
+    <connection from=":katip-mid-left-junc-2to3_0" to="L3" fromLane="2" toLane="2" dir="s" state="M"/>
+    <connection from=":katip-mid-left-junc-2to3_0" to="L3" fromLane="3" toLane="3" dir="s" state="M"/>
+    <connection from=":katip-mid-left-junc-2to3_0" to="L3" fromLane="4" toLane="4" dir="s" state="M"/>
+    <connection from=":katip-mid-left-junc-3to4_0" to="L4" fromLane="0" toLane="0" dir="s" state="M"/>
+    <connection from=":katip-mid-left-junc-3to4_0" to="L4" fromLane="1" toLane="1" dir="s" state="M"/>
+    <connection from=":katip-mid-left-junc-3to4_0" to="L4" fromLane="2" toLane="2" dir="s" state="M"/>
+    <connection from=":katip-mid-left-junc-3to4_0" to="L4" fromLane="3" toLane="3" dir="s" state="M"/>
+    <connection from=":katip-mid-left-junc-3to4_0" to="L4" fromLane="4" toLane="4" dir="s" state="M"/>
+    <connection from=":katip-mid-right-junc-5to4_0" to="R4" fromLane="0" toLane="0" dir="s" state="M"/>
+    <connection from=":katip-mid-right-junc-5to4_0" to="R4" fromLane="1" toLane="1" dir="s" state="M"/>
+    <connection from=":katip-mid-right-junc-5to4_0" to="R4" fromLane="2" toLane="2" dir="s" state="M"/>
+    <connection from=":katip-mid-right-junc-5to4_0" to="R4" fromLane="3" toLane="3" dir="s" state="M"/>
+    <connection from=":katip-top-right-curve_0" to="R1" fromLane="0" toLane="0" dir="s" state="M"/>
+    <connection from=":katip-top-right-curve_0" to="R1" fromLane="1" toLane="1" dir="s" state="M"/>
+    <connection from=":katip-top-right-curve_0" to="R1" fromLane="2" toLane="2" dir="s" state="M"/>
+    <connection from=":katip-top-right-curve_0" to="R1" fromLane="3" toLane="3" dir="s" state="M"/>
+    <connection from=":katip-university-road-f.dela-rosa_0" to="L7" fromLane="0" toLane="0" dir="s" state="M"/>
+    <connection from=":katip-university-road-f.dela-rosa_0" to="L7" fromLane="1" toLane="1" dir="s" state="M"/>
+    <connection from=":katip-university-road-f.dela-rosa_0" to="L7" fromLane="2" toLane="2" dir="s" state="M"/>
+    <connection from=":katip-university-road-f.dela-rosa_0" to="L7" fromLane="3" toLane="3" dir="s" state="M"/>
+    <connection from=":katip-university-road-f.dela-rosa_0" to="L7" fromLane="4" toLane="4" dir="s" state="M"/>
+    <connection from=":katip-university-road-f.dela-rosa_5" to="univ-road-lower-in" fromLane="0" toLane="0" dir="L" state="M"/>
+    <connection from=":katip-university-road-f.dela-rosa_6" to="univ-road-upper-in" fromLane="0" toLane="0" dir="l" state="M"/>
+    <connection from=":katip-university-road-f.dela-rosa_7" to="R6" fromLane="0" toLane="2" dir="t" state="M"/>
+    <connection from=":katip-university-road-f.dela-rosa_8" to="R6" fromLane="0" toLane="0" dir="r" state="M"/>
+    <connection from=":katip-university-road-f.dela-rosa_9" to="L7" fromLane="0" toLane="3" dir="L" state="M"/>
+    <connection from=":katip-university-road-f.dela-rosa_9" to="L7" fromLane="1" toLane="4" dir="L" state="M"/>
+    <connection from=":katip-university-road-f.dela-rosa_11" to="L7" fromLane="0" toLane="3" dir="l" state="M"/>
+    <connection from=":katip-university-road-f.dela-rosa_11" to="L7" fromLane="1" toLane="4" dir="l" state="M"/>
+    <connection from=":katip-university-road-f.dela-rosa_13" to="univ-road-lower-in" fromLane="0" toLane="0" dir="r" state="M"/>
+    <connection from=":katip-university-road-f.dela-rosa_14" to="univ-road-upper-in" fromLane="0" toLane="0" dir="R" state="M"/>
+    <connection from=":katip-university-road-f.dela-rosa_15" to="R6" fromLane="0" toLane="0" dir="s" state="M"/>
+    <connection from=":katip-university-road-f.dela-rosa_15" to="R6" fromLane="1" toLane="1" dir="s" state="M"/>
+    <connection from=":katip-university-road-f.dela-rosa_15" to="R6" fromLane="2" toLane="2" dir="s" state="M"/>
+    <connection from=":katip-university-road-f.dela-rosa_18" to="L7" fromLane="0" toLane="0" dir="r" state="M"/>
+    <connection from=":katip-university-road-f.dela-rosa_19" to="univ-road-lower-in" fromLane="0" toLane="0" dir="R" state="M"/>
+    <connection from=":katip-university-road-f.dela-rosa_20" to="univ-road-upper-in" fromLane="0" toLane="0" dir="s" state="M"/>
+    <connection from=":katip-university-road-f.dela-rosa_21" to="R6" fromLane="0" toLane="1" dir="l" state="M"/>
+    <connection from=":katip-university-road-f.dela-rosa_21" to="R6" fromLane="1" toLane="2" dir="l" state="M"/>
+    <connection from=":katip-upper-left-junc-4to5_0" to="L5" fromLane="0" toLane="0" dir="s" state="M"/>
+    <connection from=":katip-upper-left-junc-4to5_0" to="L5" fromLane="1" toLane="1" dir="s" state="M"/>
+    <connection from=":katip-upper-left-junc-4to5_0" to="L5" fromLane="2" toLane="2" dir="s" state="M"/>
+    <connection from=":katip-upper-left-junc-4to5_0" to="L5" fromLane="3" toLane="3" dir="s" state="M"/>
+    <connection from=":katip-upper-left-junc-4to5_0" to="L5" fromLane="4" toLane="4" dir="s" state="M"/>
+    <connection from=":katip-upper-left-junc-5to6_0" to="L6" fromLane="0" toLane="0" dir="s" state="M"/>
+    <connection from=":katip-upper-left-junc-5to6_0" to="L6" fromLane="1" toLane="1" dir="s" state="M"/>
+    <connection from=":katip-upper-left-junc-5to6_0" to="L6" fromLane="2" toLane="2" dir="s" state="M"/>
+    <connection from=":katip-upper-left-junc-5to6_0" to="L6" fromLane="3" toLane="3" dir="s" state="M"/>
+    <connection from=":katip-upper-left-junc-5to6_0" to="L6" fromLane="4" toLane="4" dir="s" state="M"/>
+    <connection from=":thornton-drive_0" to="thornton-drive-upper-out" fromLane="0" toLane="0" dir="s" state="M"/>
+    <connection from=":thornton-drive_1" to="thornton-drive-lower-out" fromLane="0" toLane="0" dir="L" state="M"/>
+    <connection from=":thornton-drive_2" to="thornton-drive-extension-towards" fromLane="0" toLane="0" dir="s" state="M"/>
+    <connection from=":thornton-drive-exit_0" to="R2" fromLane="0" toLane="0" dir="r" state="M"/>
+    <connection from=":thornton-drive-exit_0" to="R2" fromLane="1" toLane="1" dir="r" state="M"/>
+    <connection from=":thornton-drive-exit_0" to="R2" fromLane="2" toLane="2" dir="r" state="M"/>
+    <connection from=":thornton-drive-exit_3" to="R2" fromLane="0" toLane="0" dir="s" state="M"/>
+    <connection from=":thornton-drive-exit_3" to="R2" fromLane="1" toLane="1" dir="s" state="M"/>
+    <connection from=":thornton-drive-exit_3" to="R2" fromLane="2" toLane="2" dir="s" state="M"/>
+    <connection from=":thornton-drive-exit_3" to="R2" fromLane="3" toLane="3" dir="s" state="M"/>
+
+</net>
