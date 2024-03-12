@@ -1,30 +1,64 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!-- generated on 2024-02-28 04:47:00 by Eclipse SUMO netedit Version 1.19.0
+<!-- generated on 2024-03-12 19:44:44 by Eclipse SUMO netedit Version 1.19.0
 -->
 
 <routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <!-- VTypes -->
+    <vType id="CAR" minGap="1.00" speedFactor="normc(1.00,0.00)" vClass="passenger" sigma="0.25"/>
     <!-- Routes -->
-    <route id="kbt-10" edges="thornton-drive-extension-outward thornton-drive-lower-out L2 L3 L4 L5 L6"/>
+    <route id="kbt-10_to_kuf-4" edges="thornton-drive-extension-outward thornton-drive-lower-out L2 L3 L4 L5 L6 univ-road-lower-in"/>
+    <route id="kbt-10_to_kuf-4a" edges="thornton-drive-extension-outward thornton-drive-lower-out L2 L3 L4 L5 L6 R6 R5 R4"/>
+    <route id="kbt-10_to_kuf-4a_to_kbt-2" edges="thornton-drive-extension-outward thornton-drive-lower-out L2 L3 L4 L5 L6 R6 R5 R4 R3 R2 R1"/>
+    <route id="kbt-10_to_kuf-4a_to_kbt-3" edges="thornton-drive-extension-outward thornton-drive-lower-out L2 L3 L4 L5 L6 R6 R5 R4 thornton-drive-in thornton-drive-extension-towards"/>
+    <route id="kbt-10_to_kuf-4b" edges="thornton-drive-extension-outward thornton-drive-lower-out L2 L3 L4 L5 L6 univ-road-upper-in"/>
+    <route id="kbt-10_to_kuf-5" edges="thornton-drive-extension-outward thornton-drive-lower-out L2 L3 L4 L5 L6 L7 L8 L9 L10 L11 L12"/>
     <route id="kbt-12" edges="thornton-drive-extension-outward thornton-drive-upper-out R2 R1"/>
     <route id="kbt-2" edges="R6 R5 R4 R3 R2 R1"/>
     <route id="kbt-3" edges="R6 R5 R4 thornton-drive-in thornton-drive-extension-towards"/>
     <route id="kbt-4" edges="L1 thornton-drive-in thornton-drive-extension-towards"/>
     <route id="kbt-4a" edges="L1 R3 R2 R1"/>
+    <route id="kbt-5_to_kuf-4" edges="L1 L2 L3 L4 L5 L6 univ-road-lower-in"/>
+    <route id="kbt-5_to_kuf-4a" edges="L1 L2 L3 L4 L5 L6 R6 R5 R4"/>
+    <route id="kbt-5_to_kuf-4a_to_kbt-2" edges="L1 L2 L3 L4 L5 L6 R6 R5 R4 R3 R2 R1"/>
+    <route id="kbt-5_to_kuf-4a_to_kbt-3" edges="L1 L2 L3 L4 L5 L6 R6 R5 R4 thornton-drive-in thornton-drive-extension-towards"/>
+    <route id="kbt-5_to_kuf-4b" edges="L1 L2 L3 L4 L5 L6 univ-road-upper-in"/>
+    <route id="kbt-5_to_kuf-5" edges="L1 L2 L3 L4 L5 L6 L7 L8 L9 L10 L11 L12"/>
     <route id="kbt-7" edges="b.gonzales-extension-road b.gonzales-road R3 R2 R1"/>
-    <route id="kbt-9" edges="b.gonzales-extension-road b.gonzales-road L2 L3 L4 L5 L6"/>
+    <route id="kbt-8" edges="b.gonzales-extension-road b.gonzales-road thornton-drive-in thornton-drive-extension-towards"/>
+    <route id="kbt-9_to_kuf-4" edges="b.gonzales-extension-road b.gonzales-road L2 L3 L4 L5 L6 univ-road-lower-in"/>
+    <route id="kbt-9_to_kuf-4a" edges="b.gonzales-extension-road b.gonzales-road L2 L3 L4 L5 L6 R6 R5 R4"/>
+    <route id="kbt-9_to_kuf-4a_to_kbt-2" edges="b.gonzales-extension-road b.gonzales-road L2 L3 L4 L5 L6 R6 R5 R4 R3 R2 R1"/>
+    <route id="kbt-9_to_kuf-4a_to_kbt-3" edges="b.gonzales-extension-road b.gonzales-road L2 L3 L4 L5 L6 R6 R5 R4 thornton-drive-in thornton-drive-extension-towards"/>
+    <route id="kbt-9_to_kuf-4b" edges="b.gonzales-extension-road b.gonzales-road L2 L3 L4 L5 L6 univ-road-upper-in"/>
+    <route id="kbt-9_to_kuf-5" edges="b.gonzales-extension-road b.gonzales-road L2 L3 L4 L5 L6 L7 L8 L9 L10 L11 L12"/>
     <route id="kuf-10b" edges="univ-road-lower-out L7 L8 L9 L10 L11 L12"/>
     <route id="kuf-10c" edges="univ-road-upper-out L7 L8 L9 L10 L11 L12"/>
-    <route id="kuf-12a-zerovehiclessiya" edges="univ-road-upper-out R6 R5 R4"/>
-    <route id="kuf-2" edges="R7 R6 R5 R4"/>
+    <route id="kuf-12a-zerovehiclessiya_to_kbt-2" edges="univ-road-upper-out R6 R5 R4 R3 R2 R1"/>
+    <route id="kuf-12a-zerovehiclessiya_to_kbt-3" edges="univ-road-upper-out R6 R5 R4 thornton-drive-in thornton-drive-extension-towards"/>
+    <route id="kuf-2_to_kbt-2" edges="R7 R6 R5 R4 R3 R2 R1"/>
+    <route id="kuf-2_to_kbt-3" edges="R7 R6 R5 R4 thornton-drive-in thornton-drive-extension-towards"/>
     <route id="kuf-3" edges="R7 univ-road-lower-in"/>
     <route id="kuf-3a" edges="R7 univ-road-upper-in"/>
     <route id="kuf-4" edges="L6 univ-road-lower-in"/>
-    <route id="kuf-4a" edges="L6 R6 R5 R4"/>
     <route id="kuf-4b" edges="L6 univ-road-upper-in"/>
     <route id="kuf-5" edges="L6 L7 L8 L9 L10 L11 L12"/>
-    <route id="kuf-7" edges="f.dela-rosa-extension-road f.dela-rosa-road R6 R5 R4"/>
+    <route id="kuf-7_to_kbt-2" edges="f.dela-rosa-extension-road f.dela-rosa-road R6 R5 R4 R3 R2 R1"/>
+    <route id="kuf-7_to_kbt-3" edges="f.dela-rosa-extension-road f.dela-rosa-road R6 R5 R4 thornton-drive-in thornton-drive-extension-towards"/>
     <route id="kuf-8" edges="f.dela-rosa-extension-road f.dela-rosa-road univ-road-lower-in"/>
     <route id="kuf-8a" edges="f.dela-rosa-extension-road f.dela-rosa-road univ-road-upper-in"/>
     <route id="kuf-9" edges="f.dela-rosa-extension-road f.dela-rosa-road L7 L8 L9 L10 L11 L12"/>
+    <!-- Vehicles, persons and containers (sorted by depart) -->
+    <flow id="kbt-12_1st" type="CAR" begin="0.00" route="kbt-12" end="3600.00" vehsPerHour="10"/>
+    <flow id="kbt-4_1st" type="CAR" begin="0.00" route="kbt-4" end="3600.00" vehsPerHour="45.99992333346111195169"/>
+    <flow id="kbt-4a_1st" type="CAR" begin="0.00" route="kbt-4a" end="3600.00" vehsPerHour="425.98509052183169387717"/>
+    <flow id="kbt-7_1st" type="CAR" begin="0.00" route="kbt-7" end="3600.00" vehsPerHour="642.97195927844256857497"/>
+    <flow id="kbt-8_1st" type="CAR" begin="0.00" route="kbt-8" end="3600.00" vehsPerHour="13.00000361111211333309"/>
+    <flow id="kuf-10b_1st" type="CAR" begin="0.00" route="kuf-10b" end="3600.00" vehsPerHour="199.00497512437812019925"/>
+    <flow id="kuf-10c_1st" type="CAR" begin="0.00" route="kuf-10c" end="3600.00" vehsPerHour="505.97329585382993855092"/>
+    <flow id="kuf-3_1st" type="CAR" begin="0.00" route="kuf-3" end="3600.00" vehsPerHour="244.99795835034706215083"/>
+    <flow id="kuf-3a_1st" type="CAR" begin="0.00" route="kuf-3a" end="3600.00" vehsPerHour="27.00006750016875045617"/>
+    <flow id="kuf-8_1st" type="CAR" begin="0.00" route="kuf-8" end="3600.00" vehsPerHour="100.9987655706430302871"/>
+    <flow id="kuf-8a_1st" type="CAR" begin="0.00" route="kuf-8a" end="3600.00" vehsPerHour="97.9991833401388277025"/>
+    <flow id="kuf-9_1st" type="CAR" begin="0.00" route="kuf-9" end="3600.00" vehsPerHour="78.99934167215273816964"/>
 </routes>
