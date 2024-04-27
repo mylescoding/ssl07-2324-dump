@@ -5,8 +5,8 @@
 
 <routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
     <!-- Vehicles, persons and containers (sorted by depart) -->
-    <vType id="phCar" minGap="0.4" speedFactor="normc(1,0.1,0.2,2)" vClass="passenger" sigma="0.7" color="0,255,0"/>
-    <vType id="phMotor" minGap="0.2" speedFactor="normc(1.00,0.00)" vClass="motorcycle" sigma="0.35" color="0,0,255"/>
+    <vType id="phCar" minGap="0.1" speedFactor="normc(1,0.1,0.2,2)" vClass="passenger" sigma="0.7" color="0,255,0" latAlignment="0"/>
+    <vType id="phMotor" minGap="0.1" speedFactor="normc(1.00,0.00)" vClass="motorcycle" sigma="0.35" color="0,0,255" latAlignment="left"/>
 
     <route id="kbt-10_to_kuf-4" edges="thornton-drive-extension-outward thornton-drive-lower-out L2 L3 L4 L5 L6 univ-road-lower-in"/>
     <route id="kbt-10_to_kuf-4a" edges="thornton-drive-extension-outward thornton-drive-lower-out L2 L3 L4 L5 L6 R6 R5 R4"/>
@@ -25,14 +25,14 @@
     <route id="kbt-5_to_kuf-4a_to_kbt-3" edges="L1 L2 L3 L4 L5 L6 R6 R5 R4 thornton-drive-in thornton-drive-extension-towards"/>
     <route id="kbt-5_to_kuf-4b" edges="L1 L2 L3 L4 L5 L6 univ-road-upper-in"/>
     <route id="kbt-5_to_kuf-5" edges="L1 L2 L3 L4 L5 L6 L7 L8 L9 L10 L11 L12"/>
-    <route id="kbt-7" edges="b.gonzales-extension-road b.gonzales-road R3 R2 R1"/>
-    <route id="kbt-8" edges="b.gonzales-extension-road b.gonzales-road thornton-drive-in thornton-drive-extension-towards"/>
-    <route id="kbt-9_to_kuf-4" edges="b.gonzales-extension-road b.gonzales-road L2 L3 L4 L5 L6 univ-road-lower-in"/>
-    <route id="kbt-9_to_kuf-4a" edges="b.gonzales-extension-road b.gonzales-road L2 L3 L4 L5 L6 R6 R5 R4"/>
-    <route id="kbt-9_to_kuf-4a_to_kbt-2" edges="b.gonzales-extension-road b.gonzales-road L2 L3 L4 L5 L6 R6 R5 R4 R3 R2 R1"/>
-    <route id="kbt-9_to_kuf-4a_to_kbt-3" edges="b.gonzales-extension-road b.gonzales-road L2 L3 L4 L5 L6 R6 R5 R4 thornton-drive-in thornton-drive-extension-towards"/>
-    <route id="kbt-9_to_kuf-4b" edges="b.gonzales-extension-road b.gonzales-road L2 L3 L4 L5 L6 univ-road-upper-in"/>
-    <route id="kbt-9_to_kuf-5" edges="b.gonzales-extension-road b.gonzales-road L2 L3 L4 L5 L6 L7 L8 L9 L10 L11 L12"/>
+    <route id="kbt-7" edges="b.gonzales-road R3 R2 R1"/>
+    <route id="kbt-8" edges="b.gonzales-road thornton-drive-in thornton-drive-extension-towards"/>
+    <route id="kbt-9_to_kuf-4" edges="b.gonzales-road L2 L3 L4 L5 L6 univ-road-lower-in"/>
+    <route id="kbt-9_to_kuf-4a" edges="b.gonzales-road L2 L3 L4 L5 L6 R6 R5 R4"/>
+    <route id="kbt-9_to_kuf-4a_to_kbt-2" edges="b.gonzales-road L2 L3 L4 L5 L6 R6 R5 R4 R3 R2 R1"/>
+    <route id="kbt-9_to_kuf-4a_to_kbt-3" edges="b.gonzales-road L2 L3 L4 L5 L6 R6 R5 R4 thornton-drive-in thornton-drive-extension-towards"/>
+    <route id="kbt-9_to_kuf-4b" edges="b.gonzales-road L2 L3 L4 L5 L6 univ-road-upper-in"/>
+    <route id="kbt-9_to_kuf-5" edges="b.gonzales-road L2 L3 L4 L5 L6 L7 L8 L9 L10 L11 L12"/>
     <route id="kuf-10b" edges="univ-road-lower-out L7 L8 L9 L10 L11 L12"/>
     <route id="kuf-10c" edges="univ-road-upper-out L7 L8 L9 L10 L11 L12"/>
     <route id="kuf-12a-zerovehiclessiya_to_kbt-2" edges="univ-road-upper-out R6 R5 R4 R3 R2 R1"/>

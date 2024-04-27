@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!-- generated on 2024-04-17 14:23:04 by Eclipse SUMO netedit Version v1_19_0+0208-13a9e45677a
+<!-- generated on 2024-04-27 16:25:38 by Eclipse SUMO netedit Version 1.19.0
 <configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/neteditConfiguration.xsd">
 
     <input>
-        <sumocfg-file value="osm.sumocfg"/>
+        <sumocfg-file value="C:\Users\Rodeilyn Jean Omanio\OneDrive - University of the Philippines\Desktop\School\2nd Sem Yr 2023-2024\CoE 199\ssl07-2324-sumo-config-updated\ssl07-2324-sumo-config-updated\osm.sumocfg"/>
         <additional-files value=""/>
-        <route-files value="osm.rou.xml"/>
-        <sumo-net-file value="osm.net.xml"/>
+        <route-files value="C:\Users\Rodeilyn Jean Omanio\OneDrive - University of the Philippines\Desktop\School\2nd Sem Yr 2023-2024\CoE 199\ssl07-2324-sumo-config-updated\ssl07-2324-sumo-config-updated\osm.rou.xml"/>
+        <sumo-net-file value="C:\Users\Rodeilyn Jean Omanio\OneDrive - University of the Philippines\Desktop\School\2nd Sem Yr 2023-2024\CoE 199\ssl07-2324-sumo-config-updated\ssl07-2324-sumo-config-updated\osm.net.xml"/>
     </input>
 
     <output>
-        <output-file value="osm.net.xml"/>
+        <output-file value="C:\Users\Rodeilyn Jean Omanio\OneDrive - University of the Philippines\Desktop\School\2nd Sem Yr 2023-2024\CoE 199\ssl07-2324-sumo-config-updated\ssl07-2324-sumo-config-updated\osm.net.xml"/>
         <output.street-names value="true"/>
     </output>
 
@@ -42,15 +42,11 @@
 
 <net version="1.16" junctionCornerDetail="5" limitTurnSpeed="5.50" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/net_file.xsd">
 
-    <location netOffset="-292331.92,-1618739.76" convBoundary="42.90,393.46,565.69,1354.77" origBoundary="121.071810,14.634111,121.079289,14.646367" projParameter="+proj=utm +zone=51 +ellps=WGS84 +datum=WGS84 +units=m +no_defs"/>
+    <location netOffset="-292331.92,-1618739.76" convBoundary="23.84,393.46,567.13,1354.77" origBoundary="121.071810,14.634111,121.079289,14.646367" projParameter="+proj=utm +zone=51 +ellps=WGS84 +datum=WGS84 +units=m +no_defs"/>
 
     <type id="highway.primary" priority="12" numLanes="2" speed="27.78" disallow="tram rail_urban rail rail_electric rail_fast ship" oneway="0"/>
     <type id="highway.residential" priority="3" numLanes="1" speed="13.89" disallow="tram rail_urban rail rail_electric rail_fast ship" oneway="0"/>
 
-    <edge id=":b.gonzales_0" function="internal">
-        <lane id=":b.gonzales_0_0" index="0" disallow="tram rail_urban rail rail_electric rail_fast ship" speed="6.95" length="0.29" shape="166.99,833.30 167.28,833.41"/>
-        <lane id=":b.gonzales_0_1" index="1" disallow="tram rail_urban rail rail_electric rail_fast ship" speed="6.95" length="0.29" shape="165.84,836.28 166.09,836.38"/>
-    </edge>
     <edge id=":f.dela-rosa_0" function="internal">
         <lane id=":f.dela-rosa_0_0" index="0" disallow="tram rail_urban rail rail_electric rail_fast ship" speed="6.95" length="2.73" shape="173.57,676.81 174.20,677.19 174.62,677.47 175.06,677.71 175.73,677.97"/>
         <lane id=":f.dela-rosa_0_1" index="1" disallow="tram rail_urban rail rail_electric rail_fast ship" speed="6.95" length="2.73" shape="172.03,679.62 172.80,680.07 173.32,680.40 173.86,680.68 174.69,681.00"/>
@@ -173,27 +169,27 @@
         <lane id=":katip-top-right-curve_0_3" index="3" disallow="tram rail_urban rail rail_electric rail_fast ship" speed="16.67" length="0.29" shape="313.13,1111.09 313.11,1111.30"/>
     </edge>
     <edge id=":katip-university-road-f.dela-rosa_0" function="internal">
-        <lane id=":katip-university-road-f.dela-rosa_0_0" index="0" disallow="tram rail_urban rail rail_electric rail_fast ship" speed="16.67" length="23.51" shape="281.96,727.59 280.60,704.46"/>
-        <lane id=":katip-university-road-f.dela-rosa_0_1" index="1" disallow="tram rail_urban rail rail_electric rail_fast ship" speed="16.67" length="23.51" shape="285.15,727.41 283.79,704.25"/>
-        <lane id=":katip-university-road-f.dela-rosa_0_2" index="2" disallow="tram rail_urban rail rail_electric rail_fast ship" speed="16.67" length="23.51" shape="288.35,727.23 286.99,704.04"/>
-        <lane id=":katip-university-road-f.dela-rosa_0_3" index="3" disallow="tram rail_urban rail rail_electric rail_fast ship" speed="16.67" length="23.51" shape="288.35,727.23 288.49,720.28 289.33,715.53 290.14,710.78 290.18,703.83"/>
-        <lane id=":katip-university-road-f.dela-rosa_0_4" index="4" disallow="tram rail_urban rail rail_electric rail_fast ship" speed="16.67" length="23.51" shape="288.35,727.23 288.98,720.15 290.93,715.42 292.84,710.70 293.37,703.62"/>
+        <lane id=":katip-university-road-f.dela-rosa_0_0" index="0" disallow="tram rail_urban rail rail_electric rail_fast ship" speed="16.67" length="23.42" shape="281.95,727.50 280.60,704.46"/>
+        <lane id=":katip-university-road-f.dela-rosa_0_1" index="1" disallow="tram rail_urban rail rail_electric rail_fast ship" speed="16.67" length="23.42" shape="285.15,727.32 283.79,704.25"/>
+        <lane id=":katip-university-road-f.dela-rosa_0_2" index="2" disallow="tram rail_urban rail rail_electric rail_fast ship" speed="16.67" length="23.42" shape="288.34,727.15 286.99,704.04"/>
+        <lane id=":katip-university-road-f.dela-rosa_0_3" index="3" disallow="tram rail_urban rail rail_electric rail_fast ship" speed="16.67" length="23.42" shape="288.34,727.15 288.48,720.22 289.33,715.49 290.14,710.75 290.18,703.83"/>
+        <lane id=":katip-university-road-f.dela-rosa_0_4" index="4" disallow="tram rail_urban rail rail_electric rail_fast ship" speed="16.67" length="23.42" shape="288.34,727.15 288.98,720.09 290.92,715.38 292.84,710.67 293.37,703.62"/>
     </edge>
     <edge id=":katip-university-road-f.dela-rosa_5" function="internal">
-        <lane id=":katip-university-road-f.dela-rosa_5_0" index="0" disallow="tram rail_urban rail rail_electric rail_fast ship" speed="11.96" length="31.72" shape="291.54,727.06 292.83,721.36 297.36,716.93 305.12,713.75 316.12,711.84"/>
+        <lane id=":katip-university-road-f.dela-rosa_5_0" index="0" disallow="tram rail_urban rail rail_electric rail_fast ship" speed="11.95" length="31.66" shape="291.54,726.97 292.83,721.31 297.36,716.90 305.12,713.75 316.12,711.84"/>
     </edge>
     <edge id=":katip-university-road-f.dela-rosa_6" function="internal">
-        <lane id=":katip-university-road-f.dela-rosa_6_0" index="0" disallow="tram rail_urban rail rail_electric rail_fast ship" speed="10.87" length="31.95" shape="291.54,727.06 293.01,719.49 297.99,715.71 305.82,714.87 315.86,716.13"/>
+        <lane id=":katip-university-road-f.dela-rosa_6_0" index="0" disallow="tram rail_urban rail rail_electric rail_fast ship" speed="10.86" length="31.89" shape="291.54,726.97 293.01,719.45 297.99,715.69 305.83,714.87 315.86,716.13"/>
     </edge>
     <edge id=":katip-university-road-f.dela-rosa_7" function="internal">
-        <lane id=":katip-university-road-f.dela-rosa_7_0" index="0" disallow="tram rail_urban rail rail_electric rail_fast ship" speed="4.49" length="8.24" shape="294.74,726.88 296.03,724.69 297.40,723.90 298.85,724.53 300.37,726.57"/>
+        <lane id=":katip-university-road-f.dela-rosa_7_0" index="0" disallow="tram rail_urban rail rail_electric rail_fast ship" speed="4.49" length="8.24" shape="294.73,726.79 296.02,724.60 297.39,723.82 298.84,724.44 300.37,726.48"/>
     </edge>
     <edge id=":katip-university-road-f.dela-rosa_8" function="internal">
-        <lane id=":katip-university-road-f.dela-rosa_8_0" index="0" disallow="tram rail_urban rail rail_electric rail_fast ship" speed="6.02" length="10.58" shape="314.12,723.31 310.76,722.06 308.42,722.12 307.08,723.51 306.76,726.21"/>
+        <lane id=":katip-university-road-f.dela-rosa_8_0" index="0" disallow="tram rail_urban rail rail_electric rail_fast ship" speed="6.04" length="10.62" shape="314.17,723.20 310.79,721.96 308.43,722.04 307.08,723.43 306.76,726.13"/>
     </edge>
     <edge id=":katip-university-road-f.dela-rosa_9" function="internal">
-        <lane id=":katip-university-road-f.dela-rosa_9_0" index="0" disallow="tram rail_urban rail rail_electric rail_fast ship" speed="15.07" length="31.69" shape="314.12,723.31 303.84,717.74 296.43,712.63 291.87,708.00 290.18,703.83"/>
-        <lane id=":katip-university-road-f.dela-rosa_9_1" index="1" disallow="tram rail_urban rail rail_electric rail_fast ship" speed="14.59" length="29.65" shape="314.12,723.31 305.29,718.34 298.88,713.40 294.91,708.49 293.37,703.62"/>
+        <lane id=":katip-university-road-f.dela-rosa_9_0" index="0" disallow="tram rail_urban rail rail_electric rail_fast ship" speed="15.00" length="31.68" shape="314.17,723.20 303.87,717.71 296.44,712.65 291.88,708.03 290.18,703.83"/>
+        <lane id=":katip-university-road-f.dela-rosa_9_1" index="1" disallow="tram rail_urban rail rail_electric rail_fast ship" speed="14.51" length="29.63" shape="314.17,723.20 305.32,718.30 298.90,713.40 294.92,708.51 293.37,703.62"/>
     </edge>
     <edge id=":katip-university-road-f.dela-rosa_11" function="internal">
         <lane id=":katip-university-road-f.dela-rosa_11_0" index="0" disallow="tram rail_urban rail rail_electric rail_fast ship" speed="9.74" length="31.09" shape="314.17,706.97 306.03,711.79 298.49,713.47 292.80,711.12 290.18,703.83"/>
@@ -206,9 +202,9 @@
         <lane id=":katip-university-road-f.dela-rosa_14_0" index="0" disallow="tram rail_urban rail rail_electric rail_fast ship" speed="9.83" length="18.33" shape="305.66,702.81 306.44,707.95 308.40,711.89 311.54,714.61 315.86,716.13"/>
     </edge>
     <edge id=":katip-university-road-f.dela-rosa_15" function="internal">
-        <lane id=":katip-university-road-f.dela-rosa_15_0" index="0" disallow="tram rail_urban rail rail_electric rail_fast ship" speed="16.67" length="23.40" shape="305.66,702.81 306.76,726.21"/>
-        <lane id=":katip-university-road-f.dela-rosa_15_1" index="1" disallow="tram rail_urban rail rail_electric rail_fast ship" speed="16.67" length="23.40" shape="302.46,703.02 303.57,726.39"/>
-        <lane id=":katip-university-road-f.dela-rosa_15_2" index="2" disallow="tram rail_urban rail rail_electric rail_fast ship" speed="16.67" length="23.40" shape="299.27,703.23 300.37,726.57"/>
+        <lane id=":katip-university-road-f.dela-rosa_15_0" index="0" disallow="tram rail_urban rail rail_electric rail_fast ship" speed="16.67" length="23.31" shape="305.66,702.81 306.76,726.13"/>
+        <lane id=":katip-university-road-f.dela-rosa_15_1" index="1" disallow="tram rail_urban rail rail_electric rail_fast ship" speed="16.67" length="23.31" shape="302.46,703.02 303.56,726.30"/>
+        <lane id=":katip-university-road-f.dela-rosa_15_2" index="2" disallow="tram rail_urban rail rail_electric rail_fast ship" speed="16.67" length="23.31" shape="299.27,703.23 300.37,726.48"/>
     </edge>
     <edge id=":katip-university-road-f.dela-rosa_18" function="internal">
         <lane id=":katip-university-road-f.dela-rosa_18_0" index="0" disallow="tram rail_urban rail rail_electric rail_fast ship" speed="5.95" length="9.09" shape="275.00,709.17 277.61,709.42 279.41,708.72 280.41,707.07 280.60,704.46"/>
@@ -220,8 +216,8 @@
         <lane id=":katip-university-road-f.dela-rosa_20_0" index="0" disallow="tram rail_urban rail rail_electric rail_fast ship" speed="11.11" length="41.44" shape="275.00,709.17 315.86,716.13"/>
     </edge>
     <edge id=":katip-university-road-f.dela-rosa_21" function="internal">
-        <lane id=":katip-university-road-f.dela-rosa_21_0" index="0" disallow="tram rail_urban rail rail_electric rail_fast ship" speed="12.50" length="33.56" shape="274.25,712.28 286.93,715.80 296.04,719.33 301.59,722.86 303.57,726.39"/>
-        <lane id=":katip-university-road-f.dela-rosa_21_1" index="1" disallow="tram rail_urban rail rail_electric rail_fast ship" speed="12.50" length="31.01" shape="274.25,712.28 285.51,715.51 293.62,718.97 298.57,722.66 300.37,726.57"/>
+        <lane id=":katip-university-road-f.dela-rosa_21_0" index="0" disallow="tram rail_urban rail rail_electric rail_fast ship" speed="12.50" length="33.50" shape="274.25,712.28 286.93,715.79 296.04,719.30 301.59,722.81 303.56,726.30"/>
+        <lane id=":katip-university-road-f.dela-rosa_21_1" index="1" disallow="tram rail_urban rail rail_electric rail_fast ship" speed="12.50" length="30.95" shape="274.25,712.28 285.51,715.51 293.62,718.95 298.57,722.61 300.37,726.48"/>
     </edge>
     <edge id=":katip-upper-left-junc-4to5_0" function="internal">
         <lane id=":katip-upper-left-junc-4to5_0_0" index="0" disallow="tram rail_urban rail rail_electric rail_fast ship" speed="16.67" length="0.10" shape="283.36,754.79 283.36,754.79"/>
@@ -406,19 +402,19 @@
         <param key="ref" value="11"/>
     </edge>
     <edge id="L6" from="katip-upper-left-junc-5to6" to="katip-university-road-f.dela-rosa" name="Katipunan Avenue" priority="12" type="highway.primary" spreadType="center" shape="288.55,731.21 287.73,715.25 287.64,713.89">
-        <lane id="L6_0" index="0" disallow="tram rail_urban rail rail_electric rail_fast ship" speed="16.67" length="3.83" shape="282.15,731.39 281.96,727.59">
+        <lane id="L6_0" index="0" disallow="tram rail_urban rail rail_electric rail_fast ship" speed="16.67" length="3.92" shape="282.15,731.39 281.95,727.50">
             <param key="origId" value="1068319162"/>
         </lane>
-        <lane id="L6_1" index="1" disallow="tram rail_urban rail rail_electric rail_fast ship" speed="16.67" length="3.83" shape="285.35,731.22 285.15,727.41">
+        <lane id="L6_1" index="1" disallow="tram rail_urban rail rail_electric rail_fast ship" speed="16.67" length="3.92" shape="285.35,731.22 285.15,727.32">
             <param key="origId" value="1068319162"/>
         </lane>
-        <lane id="L6_2" index="2" disallow="tram rail_urban rail rail_electric rail_fast ship" speed="16.67" length="3.83" shape="288.54,731.06 288.35,727.23">
+        <lane id="L6_2" index="2" disallow="tram rail_urban rail rail_electric rail_fast ship" speed="16.67" length="3.92" shape="288.54,731.06 288.34,727.15">
             <param key="origId" value="1068319162"/>
         </lane>
-        <lane id="L6_3" index="3" disallow="tram rail_urban rail rail_electric rail_fast ship" speed="16.67" length="3.83" shape="291.74,730.90 291.54,727.06">
+        <lane id="L6_3" index="3" disallow="tram rail_urban rail rail_electric rail_fast ship" speed="16.67" length="3.92" shape="291.74,730.90 291.54,726.97">
             <param key="origId" value="1068319162"/>
         </lane>
-        <lane id="L6_4" index="4" disallow="tram rail_urban rail rail_electric rail_fast ship" speed="16.67" length="3.83" shape="294.93,730.73 294.74,726.88">
+        <lane id="L6_4" index="4" disallow="tram rail_urban rail rail_electric rail_fast ship" speed="16.67" length="3.92" shape="294.93,730.73 294.73,726.79">
             <param key="origId" value="1068319162"/>
         </lane>
         <param key="origTo" value="3083905364"/>
@@ -554,13 +550,13 @@
         <param key="ref" value="11"/>
     </edge>
     <edge id="R6" from="katip-university-road-f.dela-rosa" to="katip-mid-right-junc-6to5" name="Katipunan Avenue" priority="12" type="highway.primary" spreadType="center" shape="303.16,719.03 306.59,780.91 308.23,810.00 309.22,827.62">
-        <lane id="R6_0" index="0" disallow="tram rail_urban rail rail_electric rail_fast ship" speed="16.67" length="101.24" shape="306.76,726.21 309.79,780.73 311.42,809.82 312.41,827.29">
+        <lane id="R6_0" index="0" disallow="tram rail_urban rail rail_electric rail_fast ship" speed="16.67" length="101.33" shape="306.76,726.13 309.79,780.73 311.42,809.82 312.41,827.29">
             <param key="origId" value="933562736"/>
         </lane>
-        <lane id="R6_1" index="1" disallow="tram rail_urban rail rail_electric rail_fast ship" speed="16.67" length="101.24" shape="303.57,726.39 306.59,780.91 308.23,810.00 309.21,827.47">
+        <lane id="R6_1" index="1" disallow="tram rail_urban rail rail_electric rail_fast ship" speed="16.67" length="101.33" shape="303.56,726.30 306.59,780.91 308.23,810.00 309.21,827.47">
             <param key="origId" value="933562736"/>
         </lane>
-        <lane id="R6_2" index="2" disallow="tram rail_urban rail rail_electric rail_fast ship" speed="16.67" length="101.24" shape="300.37,726.57 303.39,781.09 305.04,810.18 306.02,827.65">
+        <lane id="R6_2" index="2" disallow="tram rail_urban rail rail_electric rail_fast ship" speed="16.67" length="101.33" shape="300.37,726.48 303.39,781.09 305.04,810.18 306.02,827.65">
             <param key="origId" value="933562736"/>
         </lane>
         <param key="origFrom" value="10911035820"/>
@@ -579,19 +575,11 @@
         <param key="origTo" value="270687801"/>
         <param key="ref" value="11"/>
     </edge>
-    <edge id="b.gonzales-extension-road" from="b.gonzales-extension" to="b.gonzales" name="B. Gonzales" priority="3" type="highway.residential">
-        <lane id="b.gonzales-extension-road_0" index="0" disallow="tram rail_urban rail rail_electric rail_fast ship" speed="5.56" length="118.17" shape="56.67,790.93 166.99,833.30">
-            <param key="origId" value="727682001"/>
-        </lane>
-        <lane id="b.gonzales-extension-road_1" index="1" disallow="tram rail_urban rail rail_electric rail_fast ship" speed="5.56" length="118.17" shape="55.52,793.92 165.84,836.28">
-            <param key="origId" value="727682001"/>
-        </lane>
-    </edge>
-    <edge id="b.gonzales-road" from="b.gonzales" to="katip-b.gonzales-thornton-drive-intersection" name="B. Gonzales" priority="3" type="highway.residential" shape="165.38,837.82 178.50,843.09 199.77,853.37 216.10,863.19 230.80,874.67 241.72,883.79 254.57,896.40 264.86,904.81 274.93,910.90 284.60,915.14 298.25,921.05">
-        <lane id="b.gonzales-road_0" index="0" disallow="tram rail_urban rail rail_electric rail_fast ship" speed="8.33" length="142.06" shape="167.28,833.41 180.44,838.70 202.06,849.14 218.82,859.23 233.82,870.94 244.94,880.23 257.78,892.82 267.63,900.88 277.15,906.63 285.39,910.24">
+    <edge id="b.gonzales-road" from="b.gonzales" to="katip-b.gonzales-thornton-drive-intersection" name="B. Gonzales" priority="3" type="highway.residential" shape="23.84,779.99 178.50,843.09 199.77,853.37 216.10,863.19 230.80,874.67 241.72,883.79 254.57,896.40 264.86,904.81 274.93,910.90 284.60,915.14 298.25,921.05">
+        <lane id="b.gonzales-road_0" index="0" disallow="tram rail_urban rail rail_electric rail_fast ship" speed="8.33" length="294.80" shape="25.90,775.65 180.45,838.70 202.06,849.14 218.82,859.23 233.82,870.94 244.94,880.23 257.78,892.82 267.63,900.88 277.15,906.63 285.39,910.24">
             <param key="origId" value="4601333 620790485"/>
         </lane>
-        <lane id="b.gonzales-road_1" index="1" disallow="tram rail_urban rail rail_electric rail_fast ship" speed="8.33" length="142.06" shape="166.09,836.38 179.15,841.63 200.53,851.96 217.01,861.87 231.81,873.43 242.79,882.60 255.64,895.21 265.78,903.50 275.67,909.48 284.12,913.18">
+        <lane id="b.gonzales-road_1" index="1" disallow="tram rail_urban rail rail_electric rail_fast ship" speed="8.33" length="294.80" shape="24.69,778.61 179.15,841.63 200.53,851.96 217.01,861.87 231.81,873.43 242.79,882.60 255.64,895.21 265.78,903.50 275.67,909.48 284.12,913.18">
             <param key="origId" value="4601333 620790485"/>
         </lane>
         <param key="origTo" value="4659861296"/>
@@ -638,7 +626,7 @@
         <lane id="univ-road-upper-in_0" index="0" speed="13.89" length="135.42" shape="315.86,716.13 449.01,740.80"/>
     </edge>
     <edge id="univ-road-upper-out" from="ateneo-upper" to="katip-university-road-f.dela-rosa" priority="-1">
-        <lane id="univ-road-upper-out_0" index="0" speed="13.89" length="147.65" shape="446.38,788.95 314.12,723.31"/>
+        <lane id="univ-road-upper-out_0" index="0" speed="13.89" length="280.52" shape="566.43,845.91 314.17,723.20"/>
     </edge>
 
     <tlLogic id="kbt" type="static" programID="0" offset="0">
@@ -671,12 +659,8 @@
     </tlLogic>
 
     <junction id="ateneo-lower" type="dead_end" x="437.65" y="611.23" incLanes="" intLanes="" shape="437.65,611.23 439.58,613.78"/>
-    <junction id="ateneo-upper" type="dead_end" x="447.09" y="787.52" incLanes="" intLanes="" shape="447.09,787.52 445.67,790.39"/>
-    <junction id="b.gonzales" type="priority" x="165.38" y="837.82" incLanes="b.gonzales-extension-road_0 b.gonzales-extension-road_1" intLanes=":b.gonzales_0_0 :b.gonzales_0_1" shape="165.49,837.86 167.88,831.93 167.56,831.80 165.27,837.78">
-        <request index="0" response="00" foes="00" cont="0"/>
-        <request index="1" response="00" foes="00" cont="0"/>
-    </junction>
-    <junction id="b.gonzales-extension" type="dead_end" x="54.95" y="795.41" incLanes="" intLanes="" shape="54.95,795.41 57.24,789.44"/>
+    <junction id="ateneo-upper" type="dead_end" x="567.13" y="844.47" incLanes="" intLanes="" shape="567.13,844.47 565.73,847.35"/>
+    <junction id="b.gonzales" type="dead_end" x="23.97" y="780.37" incLanes="" intLanes="" shape="24.08,780.09 26.50,774.16"/>
     <junction id="f.dela-rosa" type="priority" x="156.99" y="673.20" incLanes="f.dela-rosa-extension-road_0 f.dela-rosa-extension-road_1" intLanes=":f.dela-rosa_0_0 :f.dela-rosa_0_1" shape="174.17,682.51 176.25,676.46 175.51,676.15 175.27,676.00 175.03,675.84 174.74,675.65 174.34,675.41 171.26,681.02 172.31,681.64 172.67,681.86 173.04,682.06 173.51,682.27">
         <request index="0" response="00" foes="00" cont="0"/>
         <request index="1" response="00" foes="00" cont="0"/>
@@ -781,7 +765,7 @@
         <request index="2" response="0000" foes="0000" cont="0"/>
         <request index="3" response="0000" foes="0000" cont="0"/>
     </junction>
-    <junction id="katip-university-road-f.dela-rosa" type="traffic_light" x="300.95" y="714.99" incLanes="L6_0 L6_1 L6_2 L6_3 L6_4 univ-road-upper-out_0 univ-road-lower-out_0 R7_0 R7_1 R7_2 f.dela-rosa-road_0 f.dela-rosa-road_1" intLanes=":katip-university-road-f.dela-rosa_0_0 :katip-university-road-f.dela-rosa_0_1 :katip-university-road-f.dela-rosa_0_2 :katip-university-road-f.dela-rosa_0_3 :katip-university-road-f.dela-rosa_0_4 :katip-university-road-f.dela-rosa_5_0 :katip-university-road-f.dela-rosa_6_0 :katip-university-road-f.dela-rosa_7_0 :katip-university-road-f.dela-rosa_8_0 :katip-university-road-f.dela-rosa_9_0 :katip-university-road-f.dela-rosa_9_1 :katip-university-road-f.dela-rosa_11_0 :katip-university-road-f.dela-rosa_11_1 :katip-university-road-f.dela-rosa_13_0 :katip-university-road-f.dela-rosa_14_0 :katip-university-road-f.dela-rosa_15_0 :katip-university-road-f.dela-rosa_15_1 :katip-university-road-f.dela-rosa_15_2 :katip-university-road-f.dela-rosa_18_0 :katip-university-road-f.dela-rosa_19_0 :katip-university-road-f.dela-rosa_20_0 :katip-university-road-f.dela-rosa_21_0 :katip-university-road-f.dela-rosa_21_1" shape="280.36,727.68 308.36,726.12 308.86,724.21 309.59,723.82 310.65,723.81 312.03,724.17 313.74,724.91 316.23,714.57 316.28,713.44 315.96,710.25 315.14,708.24 313.20,705.69 311.45,706.81 310.01,707.28 308.86,707.11 308.03,706.29 307.49,704.82 307.26,702.70 279.01,704.57 278.72,706.68 278.23,707.33 277.51,707.70 276.56,707.79 275.38,707.62 273.87,713.83 277.19,716.00 278.42,718.01 279.35,720.62 280.00,723.84">
+    <junction id="katip-university-road-f.dela-rosa" type="traffic_light" x="300.95" y="714.99" incLanes="L6_0 L6_1 L6_2 L6_3 L6_4 univ-road-upper-out_0 univ-road-lower-out_0 R7_0 R7_1 R7_2 f.dela-rosa-road_0 f.dela-rosa-road_1" intLanes=":katip-university-road-f.dela-rosa_0_0 :katip-university-road-f.dela-rosa_0_1 :katip-university-road-f.dela-rosa_0_2 :katip-university-road-f.dela-rosa_0_3 :katip-university-road-f.dela-rosa_0_4 :katip-university-road-f.dela-rosa_5_0 :katip-university-road-f.dela-rosa_6_0 :katip-university-road-f.dela-rosa_7_0 :katip-university-road-f.dela-rosa_8_0 :katip-university-road-f.dela-rosa_9_0 :katip-university-road-f.dela-rosa_9_1 :katip-university-road-f.dela-rosa_11_0 :katip-university-road-f.dela-rosa_11_1 :katip-university-road-f.dela-rosa_13_0 :katip-university-road-f.dela-rosa_14_0 :katip-university-road-f.dela-rosa_15_0 :katip-university-road-f.dela-rosa_15_1 :katip-university-road-f.dela-rosa_15_2 :katip-university-road-f.dela-rosa_18_0 :katip-university-road-f.dela-rosa_19_0 :katip-university-road-f.dela-rosa_20_0 :katip-university-road-f.dela-rosa_21_0 :katip-university-road-f.dela-rosa_21_1" shape="280.35,727.59 308.36,726.04 308.86,724.12 309.60,723.73 310.67,723.71 312.07,724.06 313.79,724.79 316.23,714.57 316.28,713.44 315.96,710.25 315.14,708.24 313.20,705.69 311.45,706.81 310.01,707.28 308.86,707.11 308.03,706.29 307.49,704.82 307.26,702.70 279.01,704.57 278.72,706.68 278.23,707.33 277.51,707.70 276.56,707.79 275.38,707.62 273.87,713.83 277.19,715.99 278.42,717.98 279.35,720.58 280.00,723.78">
         <request index="0"  response="00000000000000000000000" foes="11111000001111000000000" cont="0"/>
         <request index="1"  response="00000000000000000000000" foes="11111000001111000000000" cont="0"/>
         <request index="2"  response="00000000000000000000000" foes="11111000001111000000000" cont="0"/>
@@ -931,8 +915,6 @@
     <connection from="R7" to="R6" fromLane="0" toLane="0" via=":katip-university-road-f.dela-rosa_15_0" tl="kuf" linkIndex="15" dir="s" state="O"/>
     <connection from="R7" to="R6" fromLane="1" toLane="1" via=":katip-university-road-f.dela-rosa_15_1" tl="kuf" linkIndex="16" dir="s" state="O"/>
     <connection from="R7" to="R6" fromLane="2" toLane="2" via=":katip-university-road-f.dela-rosa_15_2" tl="kuf" linkIndex="17" dir="s" state="O"/>
-    <connection from="b.gonzales-extension-road" to="b.gonzales-road" fromLane="0" toLane="0" via=":b.gonzales_0_0" dir="s" state="M"/>
-    <connection from="b.gonzales-extension-road" to="b.gonzales-road" fromLane="1" toLane="1" via=":b.gonzales_0_1" dir="s" state="M"/>
     <connection from="b.gonzales-road" to="L2" fromLane="0" toLane="0" via=":katip-b.gonzales-thornton-drive-intersection_17_0" tl="kbt" linkIndex="17" dir="r" state="o"/>
     <connection from="b.gonzales-road" to="L2" fromLane="0" toLane="1" via=":katip-b.gonzales-thornton-drive-intersection_17_1" tl="kbt" linkIndex="18" dir="r" state="o"/>
     <connection from="b.gonzales-road" to="thornton-drive-in" fromLane="1" toLane="0" via=":katip-b.gonzales-thornton-drive-intersection_19_0" tl="kbt" linkIndex="19" dir="s" state="o"/>
@@ -960,8 +942,6 @@
     <connection from="univ-road-upper-out" to="L7" fromLane="0" toLane="3" via=":katip-university-road-f.dela-rosa_9_0" tl="kuf" linkIndex="9" dir="L" state="o"/>
     <connection from="univ-road-upper-out" to="L7" fromLane="0" toLane="4" via=":katip-university-road-f.dela-rosa_9_1" tl="kuf" linkIndex="10" dir="L" state="o"/>
 
-    <connection from=":b.gonzales_0" to="b.gonzales-road" fromLane="0" toLane="0" dir="s" state="M"/>
-    <connection from=":b.gonzales_0" to="b.gonzales-road" fromLane="1" toLane="1" dir="s" state="M"/>
     <connection from=":f.dela-rosa_0" to="f.dela-rosa-road" fromLane="0" toLane="0" dir="s" state="M"/>
     <connection from=":f.dela-rosa_0" to="f.dela-rosa-road" fromLane="1" toLane="1" dir="s" state="M"/>
     <connection from=":katip-b.gonzales-thornton-drive-intersection_0" to="L2" fromLane="0" toLane="0" dir="s" state="M"/>
