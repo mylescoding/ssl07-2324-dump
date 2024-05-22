@@ -1,9 +1,104 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!-- generated on 2024-01-22 15:31:09 by Eclipse SUMO netedit Version v1_19_0+0208-13a9e45677a
+<!-- generated on 2024-03-12 14:57:10 by Eclipse SUMO netedit Version v1_19_0+0208-13a9e45677a
 -->
 
 <routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
     <!-- Vehicles, persons and containers (sorted by depart) -->
-    <flow id="f_0" begin="0.00" from="324169517" to="1072704028" end="3600.00" vehsPerHour="1800"/>
+    <vType id="phCar" minGap="0.1" speedFactor="normc(1,0.1,0.2,2)" vClass="passenger" sigma="0.7" color="0,255,0" latAlignment="0"/>
+    <vType id="phMotor" minGap="0.1" speedFactor="normc(1.00,0.00)" vClass="motorcycle" sigma="0.35" color="0,0,255" latAlignment="left"/>
+
+    <route id="kbt-10_to_kuf-4" edges="thornton-drive-extension-outward thornton-drive-lower-out L2 L3 L4 L5 L6 univ-road-lower-in"/>
+    <route id="kbt-10_to_kuf-4a" edges="thornton-drive-extension-outward thornton-drive-lower-out L2 L3 L4 L5 L6 R6 R5 R4"/>
+    <route id="kbt-10_to_kuf-4a_to_kbt-2" edges="thornton-drive-extension-outward thornton-drive-lower-out L2 L3 L4 L5 L6 R6 R5 R4 R3 R2 R1"/>
+    <route id="kbt-10_to_kuf-4a_to_kbt-3" edges="thornton-drive-extension-outward thornton-drive-lower-out L2 L3 L4 L5 L6 R6 R5 R4 thornton-drive-in thornton-drive-extension-towards"/>
+    <route id="kbt-10_to_kuf-4b" edges="thornton-drive-extension-outward thornton-drive-lower-out L2 L3 L4 L5 L6 univ-road-upper-in"/>
+    <route id="kbt-10_to_kuf-5" edges="thornton-drive-extension-outward thornton-drive-lower-out L2 L3 L4 L5 L6 L7 L8 L9 L10 L11 L12"/>
+    <route id="kbt-12" edges="thornton-drive-extension-outward thornton-drive-upper-out R2 R1"/>
+    <route id="kbt-2" edges="R6 R5 R4 R3 R2 R1"/>
+    <route id="kbt-3" edges="R6 R5 R4 thornton-drive-in thornton-drive-extension-towards"/>
+    <route id="kbt-4" edges="L1 thornton-drive-in thornton-drive-extension-towards"/>
+    <route id="kbt-4a" edges="L1 R3 R2 R1"/>
+    <route id="kbt-5_to_kuf-4" edges="L1 L2 L3 L4 L5 L6 univ-road-lower-in"/>
+    <route id="kbt-5_to_kuf-4a" edges="L1 L2 L3 L4 L5 L6 R6 R5 R4"/>
+    <route id="kbt-5_to_kuf-4a_to_kbt-2" edges="L1 L2 L3 L4 L5 L6 R6 R5 R4 R3 R2 R1"/>
+    <route id="kbt-5_to_kuf-4a_to_kbt-3" edges="L1 L2 L3 L4 L5 L6 R6 R5 R4 thornton-drive-in thornton-drive-extension-towards"/>
+    <route id="kbt-5_to_kuf-4b" edges="L1 L2 L3 L4 L5 L6 univ-road-upper-in"/>
+    <route id="kbt-5_to_kuf-5" edges="L1 L2 L3 L4 L5 L6 L7 L8 L9 L10 L11 L12"/>
+    <route id="kbt-7" edges="b.gonzales-road R3 R2 R1"/>
+    <route id="kbt-8" edges="b.gonzales-road thornton-drive-in thornton-drive-extension-towards"/>
+    <route id="kbt-9_to_kuf-4" edges="b.gonzales-road L2 L3 L4 L5 L6 univ-road-lower-in"/>
+    <route id="kbt-9_to_kuf-4a" edges="b.gonzales-road L2 L3 L4 L5 L6 R6 R5 R4"/>
+    <route id="kbt-9_to_kuf-4a_to_kbt-2" edges="b.gonzales-road L2 L3 L4 L5 L6 R6 R5 R4 R3 R2 R1"/>
+    <route id="kbt-9_to_kuf-4a_to_kbt-3" edges="b.gonzales-road L2 L3 L4 L5 L6 R6 R5 R4 thornton-drive-in thornton-drive-extension-towards"/>
+    <route id="kbt-9_to_kuf-4b" edges="b.gonzales-road L2 L3 L4 L5 L6 univ-road-upper-in"/>
+    <route id="kbt-9_to_kuf-5" edges="b.gonzales-road L2 L3 L4 L5 L6 L7 L8 L9 L10 L11 L12"/>
+    <route id="kuf-10b" edges="univ-road-lower-out L7 L8 L9 L10 L11 L12"/>
+    <route id="kuf-10c" edges="univ-road-upper-out L7 L8 L9 L10 L11 L12"/>
+    <route id="kuf-12a-zerovehiclessiya_to_kbt-2" edges="univ-road-upper-out R6 R5 R4 R3 R2 R1"/>
+    <route id="kuf-12a-zerovehiclessiya_to_kbt-3" edges="univ-road-upper-out R6 R5 R4 thornton-drive-in thornton-drive-extension-towards"/>
+    <route id="kuf-2_to_kbt-2" edges="R7 R6 R5 R4 R3 R2 R1"/>
+    <route id="kuf-2_to_kbt-3" edges="R7 R6 R5 R4 thornton-drive-in thornton-drive-extension-towards"/>
+    <route id="kuf-3" edges="R7 univ-road-lower-in"/>
+    <route id="kuf-3a" edges="R7 univ-road-upper-in"/>
+    <route id="kuf-4" edges="L6 univ-road-lower-in"/>
+    <route id="kuf-4b" edges="L6 univ-road-upper-in"/>
+    <route id="kuf-5" edges="L6 L7 L8 L9 L10 L11 L12"/>
+    <route id="kuf-7_to_kbt-2" edges=" f.dela-rosa-road R6 R5 R4 R3 R2 R1"/>
+    <route id="kuf-7_to_kbt-3" edges=" f.dela-rosa-road R6 R5 R4 thornton-drive-in thornton-drive-extension-towards"/>
+    <route id="kuf-8" edges=" f.dela-rosa-road univ-road-lower-in"/>
+    <route id="kuf-8a" edges=" f.dela-rosa-road univ-road-upper-in"/>
+    <route id="kuf-9" edges=" f.dela-rosa-road L7 L8 L9 L10 L11 L12"/>
+
+    <flow id ="f_0" type = "phMotor" begin="0.00" route="kbt-4" end="3600.00" vehsPerHour="28" departLane="free" departSpeed="max"/>
+    <flow id ="f_1" type = "phCar" begin="0.00" route="kbt-4" end="3600.00" vehsPerHour="18" departLane="free" departSpeed="max"/>
+    <flow id ="f_2" type = "phMotor" begin="0.00" route="kbt-4a" end="3600.00" vehsPerHour="256" departLane="free" departSpeed="max"/>
+    <flow id ="f_3" type = "phCar" begin="0.00" route="kbt-4a" end="3600.00" vehsPerHour="170" departLane="free" departSpeed="max"/>
+    <flow id ="f_4" type = "phMotor" begin="0.00" route="kbt-5_to_kuf-4" end="3600.00" vehsPerHour="79" departLane="free" departSpeed="max"/>
+    <flow id ="f_5" type = "phCar" begin="0.00" route="kbt-5_to_kuf-4" end="3600.00" vehsPerHour="52" departLane="free" departSpeed="max"/>
+    <flow id ="f_6" type = "phMotor" begin="0.00" route="kbt-5_to_kuf-4a_to_kbt-2" end="3600.00" vehsPerHour="2" departLane="free" departSpeed="max"/>
+    <flow id ="f_7" type = "phCar" begin="0.00" route="kbt-5_to_kuf-4a_to_kbt-2" end="3600.00" vehsPerHour="1" departLane="free" departSpeed="max"/>
+    <flow id ="f_8" type = "phMotor" begin="0.00" route="kbt-5_to_kuf-4a_to_kbt-3" end="3600.00" vehsPerHour="1" departLane="free" departSpeed="max"/>
+    <flow id ="f_9" type = "phMotor" begin="0.00" route="kbt-5_to_kuf-4b" end="3600.00" vehsPerHour="67" departLane="free" departSpeed="max"/>
+    <flow id ="f_10" type = "phCar" begin="0.00" route="kbt-5_to_kuf-4b" end="3600.00" vehsPerHour="44" departLane="free" departSpeed="max"/>
+    <flow id ="f_11" type = "phMotor" begin="0.00" route="kbt-5_to_kuf-5" end="3600.00" vehsPerHour="2184" departLane="free" departSpeed="max"/>
+    <flow id ="f_12" type = "phCar" begin="0.00" route="kbt-5_to_kuf-5" end="3600.00" vehsPerHour="1456" departLane="free" departSpeed="max"/>
+    <flow id ="f_13" type = "phMotor" begin="0.00" route="kbt-7" end="3600.00" vehsPerHour="386" departLane="free" departSpeed="max"/>
+    <flow id ="f_14" type = "phCar" begin="0.00" route="kbt-7" end="3600.00" vehsPerHour="257" departLane="free" departSpeed="max"/>
+    <flow id ="f_15" type = "phMotor" begin="0.00" route="kbt-8" end="3600.00" vehsPerHour="8" departLane="free" departSpeed="max"/>
+    <flow id ="f_16" type = "phCar" begin="0.00" route="kbt-8" end="3600.00" vehsPerHour="5" departLane="free" departSpeed="max"/>
+    <flow id ="f_17" type = "phMotor" begin="0.00" route="kbt-9_to_kuf-4" end="3600.00" vehsPerHour="1" departLane="free" departSpeed="max"/>
+    <flow id ="f_18" type = "phMotor" begin="0.00" route="kbt-9_to_kuf-4b" end="3600.00" vehsPerHour="1" departLane="free" departSpeed="max"/>
+    <flow id ="f_19" type = "phMotor" begin="0.00" route="kbt-9_to_kuf-5" end="3600.00" vehsPerHour="13" departLane="free" departSpeed="max"/>
+    <flow id ="f_20" type = "phCar" begin="0.00" route="kbt-9_to_kuf-5" end="3600.00" vehsPerHour="9" departLane="free" departSpeed="max"/>
+    <flow id ="f_21" type = "phMotor" begin="0.00" route="kbt-10_to_kuf-4" end="3600.00" vehsPerHour="2" departLane="free" departSpeed="max"/>
+    <flow id ="f_22" type = "phCar" begin="0.00" route="kbt-10_to_kuf-4" end="3600.00" vehsPerHour="1" departLane="free" departSpeed="max"/>
+    <flow id ="f_23" type = "phMotor" begin="0.00" route="kbt-10_to_kuf-4b" end="3600.00" vehsPerHour="2" departLane="free" departSpeed="max"/>
+    <flow id ="f_24" type = "phCar" begin="0.00" route="kbt-10_to_kuf-4b" end="3600.00" vehsPerHour="1" departLane="free" departSpeed="max"/>
+    <flow id ="f_25" type = "phMotor" begin="0.00" route="kbt-10_to_kuf-5" end="3600.00" vehsPerHour="55" departLane="free" departSpeed="max"/>
+    <flow id ="f_26" type = "phCar" begin="0.00" route="kbt-10_to_kuf-5" end="3600.00" vehsPerHour="36" departLane="free" departSpeed="max"/>
+    <flow id ="f_27" type = "phMotor" begin="0.00" route="kbt-12" end="3600.00" vehsPerHour="6" departLane="free" departSpeed="max"/>
+    <flow id ="f_28" type = "phCar" begin="0.00" route="kbt-12" end="3600.00" vehsPerHour="4" departLane="free" departSpeed="max"/>
+    <flow id ="f_29" type = "phMotor" begin="0.00" route="kuf-2_to_kbt-2" end="3600.00" vehsPerHour="2260" departLane="free" departSpeed="max"/>
+    <flow id ="f_30" type = "phCar" begin="0.00" route="kuf-2_to_kbt-2" end="3600.00" vehsPerHour="1507" departLane="free" departSpeed="max"/>
+    <flow id ="f_31" type = "phMotor" begin="0.00" route="kuf-2_to_kbt-3" end="3600.00" vehsPerHour="22" departLane="free" departSpeed="max"/>
+    <flow id ="f_32" type = "phCar" begin="0.00" route="kuf-2_to_kbt-3" end="3600.00" vehsPerHour="14" departLane="free" departSpeed="max"/>
+    <flow id ="f_33" type = "phMotor" begin="0.00" route="kuf-3" end="3600.00" vehsPerHour="147" departLane="free" departSpeed="max"/>
+    <flow id ="f_34" type = "phCar" begin="0.00" route="kuf-3" end="3600.00" vehsPerHour="98" departLane="free" departSpeed="max"/>
+    <flow id ="f_35" type = "phMotor" begin="0.00" route="kuf-3a" end="3600.00" vehsPerHour="16" departLane="free" departSpeed="max"/>
+    <flow id ="f_36" type = "phCar" begin="0.00" route="kuf-3a" end="3600.00" vehsPerHour="11" departLane="free" departSpeed="max"/>
+    <flow id ="f_37" type = "phMotor" begin="0.00" route="kuf-7_to_kbt-2" end="3600.00" vehsPerHour="92" departLane="free" departSpeed="max"/>
+    <flow id ="f_38" type = "phCar" begin="0.00" route="kuf-7_to_kbt-2" end="3600.00" vehsPerHour="62" departLane="free" departSpeed="max"/>
+    <flow id ="f_39" type = "phMotor" begin="0.00" route="kuf-7_to_kbt-3" end="3600.00" vehsPerHour="1" departLane="free" departSpeed="max"/>
+    <flow id ="f_40" type = "phMotor" begin="0.00" route="kuf-8" end="3600.00" vehsPerHour="61" departLane="free" departSpeed="max"/>
+    <flow id ="f_41" type = "phCar" begin="0.00" route="kuf-8" end="3600.00" vehsPerHour="40" departLane="free" departSpeed="max"/>
+    <flow id ="f_42" type = "phMotor" begin="0.00" route="kuf-8a" end="3600.00" vehsPerHour="59" departLane="free" departSpeed="max"/>
+    <flow id ="f_43" type = "phCar" begin="0.00" route="kuf-8a" end="3600.00" vehsPerHour="39" departLane="free" departSpeed="max"/>
+    <flow id ="f_44" type = "phMotor" begin="0.00" route="kuf-9" end="3600.00" vehsPerHour="47" departLane="free" departSpeed="max"/>
+    <flow id ="f_45" type = "phCar" begin="0.00" route="kuf-9" end="3600.00" vehsPerHour="32" departLane="free" departSpeed="max"/>
+    <flow id ="f_46" type = "phMotor" begin="0.00" route="kuf-10b" end="3600.00" vehsPerHour="119" departLane="free" departSpeed="max"/>
+    <flow id ="f_47" type = "phCar" begin="0.00" route="kuf-10b" end="3600.00" vehsPerHour="80" departLane="free" departSpeed="max"/>
+    <flow id ="f_48" type = "phMotor" begin="0.00" route="kuf-10c" end="3600.00" vehsPerHour="304" departLane="free" departSpeed="max"/>
+    <flow id ="f_49" type = "phCar" begin="0.00" route="kuf-10c" end="3600.00" vehsPerHour="202" departLane="free" departSpeed="max"/>
+    
 </routes>
